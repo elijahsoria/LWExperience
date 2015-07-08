@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>C056300F-E64F-4825-86E5-D384C5F03CFE</string>
+=======
+	<string>051DBC03-972E-42D2-A475-079E650A668C</string>
+>>>>>>> fda83461dc8fa5ea0a1c30f32f1ed1bf96211802
 	<key>IDESourceControlProjectName</key>
 	<string>Lindsay Wildlife</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +38,11 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>24891F4CCE0B611F0D8267F5D8754A675111C5EE</string>
 			<key>IDESourceControlWCCName</key>
+<<<<<<< HEAD
 			<string>LWExperience</string>
+=======
+			<string>LMEFINAL</string>
+>>>>>>> fda83461dc8fa5ea0a1c30f32f1ed1bf96211802
 		</dict>
 	</array>
 </dict>

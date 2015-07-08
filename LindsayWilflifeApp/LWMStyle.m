@@ -30,7 +30,7 @@
         return [UIColor colorWithRed:(108.0/255.0) green:(107.0/255.0) blue:(101.0/255.0) alpha: 1];
     
     else if ([sender isEqualToString:@"light"])
-        return [UIColor colorWithRed:(251.0/255.0) green:(255.0/255.0) blue:(210.0/255.0) alpha:1];
+        return [UIColor colorWithRed:(251.0/255.0) green:(251.0/255.0) blue:(210.0/255.0) alpha:1];
     
     else
         return nil;
@@ -55,9 +55,11 @@
 {
     if ([sender isEqualToString:@"dark"])
         return [UIColor colorWithRed:(61.0 / 255.0) green:(61.0 / 255.0) blue:(58.0 / 255.0) alpha: 1];
+        //return [UIColor colorWithRed:(61.0 / 255.0) green:(61.0 / 255.0) blue:(61.0 / 255.0) alpha: 1];
 
     else if ([sender isEqualToString:@"light"])
         return [UIColor colorWithRed:(214.0 / 255.0) green:(217.0 / 255.0) blue:(183.0 / 255.0) alpha: 1];
+        //return [UIColor colorWithRed:(214.0 / 255.0) green:(214.0 / 255.0) blue:(214.0 / 255.0) alpha: 1];
     else if ([sender isEqualToString:@"black"])
         return [[UIColor blackColor] colorWithAlphaComponent:0.55f];
     else

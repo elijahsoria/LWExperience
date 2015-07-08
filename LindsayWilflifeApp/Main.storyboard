@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Eo2-PE-Y0T">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Eo2-PE-Y0T">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--Take a Picture-->
@@ -246,11 +246,13 @@
             </objects>
             <point key="canvasLocation" x="-6109" y="-430"/>
         </scene>
-        <!--Lindsay-->
+        <!--Navigation Controller-->
         <scene sceneID="PsM-IA-rey">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Qes-8P-Lzl" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Lindsay" id="jhG-G9-5j0"/>
+                    <tabBarItem key="tabBarItem" title="" id="jhG-G9-5j0">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="PJz-u9-pge">
                         <autoresizingMask key="autoresizingMask"/>
@@ -263,11 +265,13 @@
             </objects>
             <point key="canvasLocation" x="-4795" y="845"/>
         </scene>
-        <!--Wildlife-->
+        <!--Navigation Controller-->
         <scene sceneID="YNJ-7X-Wyq">
             <objects>
                 <navigationController definesPresentationContext="YES" id="8K6-nG-sZV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Wildlife" id="OJ5-UP-nUR"/>
+                    <tabBarItem key="tabBarItem" title="" id="OJ5-UP-nUR">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="M2j-Fs-dT1">
                         <autoresizingMask key="autoresizingMask"/>
@@ -1632,7 +1636,9 @@
                             <constraint firstAttribute="trailing" secondItem="6Ey-aA-Nzj" secondAttribute="trailing" constant="8" id="z2b-ua-N8u"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="sXq-uG-9BG"/>
+                    <tabBarItem key="tabBarItem" title="" id="sXq-uG-9BG">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" title="Lindsay Wildlife Museum" id="xN9-0D-2TE"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
@@ -2704,11 +2710,13 @@ Lindsay Wildlife Museum                                                         
             </objects>
             <point key="canvasLocation" x="-2705" y="-2215"/>
         </scene>
-        <!--My Notes-->
+        <!--Navigation Controller-->
         <scene sceneID="bQ8-l9-vOs">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="21o-82-cGU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="My Notes" id="faM-2U-Brn"/>
+                    <tabBarItem key="tabBarItem" title="" id="faM-2U-Brn">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="G0w-fG-urr"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
@@ -3067,11 +3075,13 @@ W-S: 10AM - 5PM</string>
             </objects>
             <point key="canvasLocation" x="-4222" y="-3017"/>
         </scene>
-        <!--Camera-->
+        <!--Navigation Controller-->
         <scene sceneID="EDH-LJ-XHn">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4xD-Mc-3gr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Camera" id="j7O-az-ub8"/>
+                    <tabBarItem key="tabBarItem" title="" id="j7O-az-ub8">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="dJ4-al-PIs">
