@@ -24,7 +24,9 @@
     
     
     
-    UIColor *myColor = [UIColor colorWithRed:(251.0/255.0) green:(255.0/255.0) blue:(210.0/255.0) alpha:1];
+    UIColor *myColor = [UIColor colorWithRed:(224.0/255.0) green:(224.0/255.0) blue:(224.0/255.0) alpha:1];
+    [[UINavigationBar appearance] setTintColor:myColor];
+    UIColor *selectColor = [UIColor colorWithRed:(255.0/255.0) green:(255.0/255.0) blue:(255.0/255.0) alpha:1];
     [[UINavigationBar appearance] setTintColor:myColor];
     UIColor *textColor = [UIColor colorWithRed:(251.0/255.0) green:(255.0/255.0) blue:(210.0/255.0) alpha:1];
     [[UINavigationBar appearance] setTitleTextAttributes:
@@ -43,7 +45,7 @@
     [[UIApplication sharedApplication] setStatusBarHidden:NO];
     
     [[UITabBar appearance] setTintColor:myColor];
-    [[UITabBar appearance] setSelectedImageTintColor:myColor];
+    [[UITabBar appearance] setSelectedImageTintColor:selectColor];
     
     [[UIToolbar appearance] setTintColor:[UIColor blackColor]];
     [[UIToolbar appearance] setBarStyle:UIBarStyleDefault];
@@ -58,16 +60,19 @@
     UITabBarItem *tabBarItem4 = [tabBar.items objectAtIndex:3];
     UITabBarItem *tabBarItem5 = [tabBar.items objectAtIndex:4];
     
-    tabBarItem1.title = @"HOME";
+    /*tabBarItem1.title = @"HOME";
     tabBarItem2.title = @"MY NOTES";
     tabBarItem3.title = @"PICTURE";
     tabBarItem4.title = @"WILDLIFE";
-    tabBarItem5.title = @"LINDSAY";
-    
-    tabBarItem1.image = [[UIImage imageNamed:@"Home Icon sm.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    tabBarItem2.image = [[UIImage imageNamed:@"My Notes Icon sm.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    tabBarItem3.image = [[UIImage imageNamed:@"Pictures Icon sm.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    tabBarItem4.image = [[UIImage imageNamed:@"Wildlife Icon sm.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem5.title = @"LINDSAY";*/
+    tabBarItem1.selectedImage = [[UIImage imageNamed:@"House.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem1.image = [[UIImage imageNamed:@"House2.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem2.selectedImage = [[UIImage imageNamed:@"Notepad.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem2.image = [[UIImage imageNamed:@"Notepad2.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem3.selectedImage = [[UIImage imageNamed:@"Camera.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem3.image = [[UIImage imageNamed:@"Camera2.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem4.selectedImage = [[UIImage imageNamed:@"Paw.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem4.image = [[UIImage imageNamed:@"Paw2.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     tabBarItem5.image = [[UIImage imageNamed:@"Lindsay Icon sm.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 
     
