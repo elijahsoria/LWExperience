@@ -30,15 +30,11 @@
     [super viewDidLoad];
     
     _Picture.image=_image;
-    NSInteger i=0;
-    //while(![[@"text" substringWithRange:NSMakeRange(i, i+8)] isEqualToString:@"Habitat"]) i++;
-    //NSRange range = [_text rangeOfString:@"HABITAT"];
-    //_text.
     
-    _Name.attributedText=[@"text" substringWithRange:NSMakeRange(0, i)];
+    _Name.attributedText=_NameText;
     _Name.textColor=[LWMStyle setTextColor:@"light"];
      //Do any additional setup after loading the view.
-    //_Habitat.attributedText=[@"text" substringFromIndex: (i)];
+    _Habitat.attributedText=_HabText;
     _Habitat.textColor=[LWMStyle setTextColor:@"light"];
 }
 

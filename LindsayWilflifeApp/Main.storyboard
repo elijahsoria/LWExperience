@@ -1344,7 +1344,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lWg-EY-rFc">
-                                        <rect key="frame" x="0.0" y="129" width="320" height="391"/>
+                                        <rect key="frame" x="0.0" y="129" width="320" height="439"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9eJ-tc-xwl">
                                         <rect key="frame" x="0.0" y="37" width="320" height="41"/>
@@ -1367,7 +1367,6 @@
                         <outlet property="Habitat" destination="hbo-he-32o" id="LSD-0G-e6z"/>
                         <outlet property="Name" destination="9eJ-tc-xwl" id="1A1-up-VRQ"/>
                         <outlet property="Picture" destination="lWg-EY-rFc" id="Xox-eg-6gS"/>
-                        <outlet property="Title" destination="hbo-he-32o" id="gan-Bc-Z1n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5KO-y3-KIm" userLabel="First Responder" sceneMemberID="firstResponder"/>

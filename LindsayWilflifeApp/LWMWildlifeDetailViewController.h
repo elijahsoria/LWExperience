@@ -20,7 +20,8 @@
 @property NSString *detailPicture;
 @property NSMutableAttributedString *detailDescription;
 @property NSString *detailHelp;
-@property NSAttributedString *label;
+@property NSAttributedString *lab1;
+@property NSAttributedString *lab2;
 
 
 

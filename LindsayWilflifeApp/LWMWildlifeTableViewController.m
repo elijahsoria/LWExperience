@@ -353,9 +353,8 @@
                                                                 attributes:subAttrs];
                          [common_name setAttributes:attrs2 range:name_range];
                          
-                         [common_name appendAttributedString:habitat];
-                         
-                         detail.label = common_name;
+                         detail.lab1 = common_name;
+                         detail.lab2 = habitat;
                          
                          // Create the attributed string (text + attributes)
                          NSMutableAttributedString *key =
@@ -438,9 +437,8 @@
                                                    attributes:subAttrs];
             [common_name setAttributes:attrs2 range:name_range];
             
-            [common_name appendAttributedString:habitat];
-            
-            detail.label = common_name;
+            detail.lab1 = common_name;
+            detail.lab2= habitat;
             
             // Create the attributed string (text + attributes)
             NSMutableAttributedString *key =

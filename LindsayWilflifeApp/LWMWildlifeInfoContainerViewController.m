@@ -69,7 +69,8 @@
     {
         LWMPictureViewController *detail = segue.destinationViewController;
         detail.image=_infoPicture.image;
-        detail.text=_label;
+        detail.NameText=_lab1;
+        detail.HabText=_lab2;
     }
 }
 

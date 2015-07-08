@@ -27,7 +27,8 @@
 @property NSAttributedString *name;
 @property NSString *picture;
 @property NSString *help;
-@property NSAttributedString *label;
+@property NSAttributedString *lab1;
+@property NSAttributedString *lab2;
 
 @property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 

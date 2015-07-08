@@ -17,6 +17,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *BackButton;
 - (IBAction)Back:(id)sender;
 @property UIImage *image;
-@property NSAttributedString *text;
+@property NSAttributedString *NameText;
+@property NSAttributedString *HabText;
 
 @end

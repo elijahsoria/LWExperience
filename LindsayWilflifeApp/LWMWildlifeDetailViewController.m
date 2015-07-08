@@ -69,7 +69,8 @@
         detail.picture = _detailPicture;
         detail.name = _detailName;
         detail.descr = _detailDescription;
-        detail.label=_label;
+        detail.lab1=_lab1;
+        detail.lab2=_lab2;
         
     }
     
@@ -79,7 +80,8 @@
         detail_2.name = _detailName;
         detail_2.picture = _detailPicture;
         detail_2.help = _detailHelp;
-        detail_2.label=_label;
+        detail_2.lab1=_lab1;
+        detail_2.lab2=_lab2;
     }
 }
 
