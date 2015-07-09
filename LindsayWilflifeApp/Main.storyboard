@@ -1326,10 +1326,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
                                     <view alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kF8-TF-RtP">
-                                        <rect key="frame" x="-105" y="0.0" width="530" height="43"/>
+                                        <rect key="frame" x="-105" y="8" width="530" height="43"/>
                                         <subviews>
-                                            <button opaque="NO" alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWH-eg-7ia">
-                                                <rect key="frame" x="109" y="1" width="42" height="42"/>
+                                            <button opaque="NO" alpha="0.85000000000000031" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWH-eg-7ia">
+                                                <rect key="frame" x="108" y="0.0" width="42" height="42"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="tintColor" red="0.98366570470000003" green="1" blue="0.82360517980000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" image="back.png"/>
@@ -1341,22 +1341,31 @@
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbo-he-32o">
-                                        <rect key="frame" x="0.0" y="86" width="320" height="41"/>
+                                        <rect key="frame" x="0.0" y="102" width="320" height="41"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" red="0.98366570470000003" green="1" blue="0.82360517980000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lWg-EY-rFc">
-                                        <rect key="frame" x="0.0" y="129" width="320" height="439"/>
-                                    </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9eJ-tc-xwl">
-                                        <rect key="frame" x="0.0" y="37" width="320" height="41"/>
+                                        <rect key="frame" x="0.0" y="59" width="320" height="41"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" red="0.98366570470000003" green="1" blue="0.82360517980000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BsM-Ck-pbC">
+                                        <rect key="frame" x="0.0" y="174" width="320" height="220"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lWg-EY-rFc">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+                                                <gestureRecognizers/>
+                                            </imageView>
+                                        </subviews>
+                                        <connections>
+                                            <outlet property="delegate" destination="Hkx-bA-cx9" id="Dvn-Yi-bKk"/>
+                                        </connections>
+                                    </scrollView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -1370,6 +1379,7 @@
                         <outlet property="BackButton" destination="eWH-eg-7ia" id="ahC-ai-ihB"/>
                         <outlet property="Habitat" destination="hbo-he-32o" id="LSD-0G-e6z"/>
                         <outlet property="Name" destination="9eJ-tc-xwl" id="1A1-up-VRQ"/>
+                        <outlet property="PicScroll" destination="BsM-Ck-pbC" id="KmH-ib-Upo"/>
                         <outlet property="Picture" destination="lWg-EY-rFc" id="Xox-eg-6gS"/>
                     </connections>
                 </viewController>
@@ -1637,7 +1647,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="sXq-uG-9BG">
-                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="-9"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" title="Lindsay Wildlife Museum" id="xN9-0D-2TE"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

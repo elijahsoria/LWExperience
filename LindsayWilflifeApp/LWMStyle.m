@@ -39,11 +39,11 @@
 + (UIColor *)setDetailBackgroundColor:(NSString *)sender
 {
     if ([sender isEqualToString:@"dark"])
-
+        //return [UIColor colorWithRed:(150.0/255.0) green:(150.0/255.0) blue:(150.0/255.0) alpha:1];
         return [UIColor colorWithRed:(170.0/255.0) green:(122.0/255.0) blue:(77.0/255.0) alpha:1];
     
     else if ([sender isEqualToString:@"light"])
-
+        //return [UIColor colorWithRed:(230.0 / 255.0) green:(230.0 / 255.0) blue:(1230.0 / 255.0) alpha: 1];
         return [UIColor colorWithRed:(244.0/255.0) green:(247.0/255.0) blue:(170.0/255.0) alpha:1];
     
     else

@@ -13,6 +13,7 @@
 @property (strong, nonatomic) IBOutlet UIImageView *Picture;
 @property (strong, nonatomic) IBOutlet UILabel *Name;
 @property (strong, nonatomic) IBOutlet UILabel *Habitat;
+@property (strong, nonatomic) IBOutlet UIScrollView *PicScroll;
 
 @property (strong, nonatomic) IBOutlet UIButton *BackButton;
 - (IBAction)Back:(id)sender;

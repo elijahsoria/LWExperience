@@ -207,7 +207,7 @@
     else
     {
         result = nil;
-        NSLog(@"could not prepare statemetn: %s", sqlite3_errmsg(database));
+        NSLog(@"could not prepare statement: %s", sqlite3_errmsg(database));
     }
     
     sqlite3_reset(statement);
