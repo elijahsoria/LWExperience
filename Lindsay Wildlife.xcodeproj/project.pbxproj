@@ -19,12 +19,12 @@
 		0077C580180CD8D40063C742 /* LWMDate_SegVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0077C57F180CD8D40063C742 /* LWMDate_SegVC.m */; };
 		0077C583180CD93E0063C742 /* LWMMap_SegVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0077C582180CD93E0063C742 /* LWMMap_SegVC.m */; };
 		0077C586180CD9D00063C742 /* LWMTag_SegVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0077C585180CD9D00063C742 /* LWMTag_SegVC.m */; };
+		2B1D06CB1B5094160057F5A5 /* Notepad2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D06CA1B5094160057F5A5 /* Notepad2.png */; };
 		2BA8BD061B4C9EFF00B18DC9 /* House.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD041B4C9EFF00B18DC9 /* House.png */; };
 		2BA8BD071B4C9EFF00B18DC9 /* House2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD051B4C9EFF00B18DC9 /* House2.png */; };
 		2BA8BD0A1B4CC63A00B18DC9 /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD081B4CC63A00B18DC9 /* Camera.png */; };
 		2BA8BD0B1B4CC63A00B18DC9 /* Camera2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD091B4CC63A00B18DC9 /* Camera2.png */; };
 		2BA8BD121B4CCD4700B18DC9 /* Notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD101B4CCD4700B18DC9 /* Notepad.png */; };
-		2BA8BD131B4CCD4700B18DC9 /* Notepad2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD111B4CCD4700B18DC9 /* Notepad2.png */; };
 		2BA8BD161B4CD12800B18DC9 /* Paw.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD141B4CD12800B18DC9 /* Paw.png */; };
 		2BA8BD171B4CD12800B18DC9 /* Paw2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD151B4CD12800B18DC9 /* Paw2.png */; };
 		4A3BAAA518D64D1E00A2DB8A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3BAAA418D64D1E00A2DB8A /* libsqlite3.dylib */; };
@@ -379,12 +379,12 @@
 		0077C582180CD93E0063C742 /* LWMMap_SegVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWMMap_SegVC.m; sourceTree = "<group>"; };
 		0077C584180CD9D00063C742 /* LWMTag_SegVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWMTag_SegVC.h; sourceTree = "<group>"; };
 		0077C585180CD9D00063C742 /* LWMTag_SegVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWMTag_SegVC.m; sourceTree = "<group>"; };
+		2B1D06CA1B5094160057F5A5 /* Notepad2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notepad2.png; sourceTree = "<group>"; };
 		2BA8BD041B4C9EFF00B18DC9 /* House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = House.png; sourceTree = "<group>"; };
 		2BA8BD051B4C9EFF00B18DC9 /* House2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = House2.png; sourceTree = "<group>"; };
 		2BA8BD081B4CC63A00B18DC9 /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
 		2BA8BD091B4CC63A00B18DC9 /* Camera2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera2.png; sourceTree = "<group>"; };
 		2BA8BD101B4CCD4700B18DC9 /* Notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notepad.png; sourceTree = "<group>"; };
-		2BA8BD111B4CCD4700B18DC9 /* Notepad2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notepad2.png; sourceTree = "<group>"; };
 		2BA8BD141B4CD12800B18DC9 /* Paw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Paw.png; sourceTree = "<group>"; };
 		2BA8BD151B4CD12800B18DC9 /* Paw2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Paw2.png; sourceTree = "<group>"; };
 		4A3BAAA418D64D1E00A2DB8A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -915,7 +915,7 @@
 				7101463B191C1534003B7F81 /* Lindsay Icon sm@2x.png */,
 				7123EC8F1935CDDD0077141D /* Wildlife Icon sm@2x.png */,
 				2BA8BD101B4CCD4700B18DC9 /* Notepad.png */,
-				2BA8BD111B4CCD4700B18DC9 /* Notepad2.png */,
+				2B1D06CA1B5094160057F5A5 /* Notepad2.png */,
 				2BA8BD041B4C9EFF00B18DC9 /* House.png */,
 				2BA8BD051B4C9EFF00B18DC9 /* House2.png */,
 				2BA8BD081B4CC63A00B18DC9 /* Camera.png */,
@@ -1705,7 +1705,6 @@
 				71A4603A193684BD00376384 /* tmcommon_garter_snake.png in Resources */,
 				2BA8BD0B1B4CC63A00B18DC9 /* Camera2.png in Resources */,
 				71A45FAD1936849500376384 /* western_meadowlark.png in Resources */,
-				2BA8BD131B4CCD4700B18DC9 /* Notepad2.png in Resources */,
 				71A4605A193684BD00376384 /* tmnuttall's_woodpecker.png in Resources */,
 				71A4604B193684BD00376384 /* tmgreat_blue_heron.png in Resources */,
 				71A4601F193684BD00376384 /* tmamerican_white_pelican.png in Resources */,
@@ -1723,6 +1722,7 @@
 				71A45FB31936849500376384 /* white_tailed_kite.png in Resources */,
 				71A46027193684BD00376384 /* tmblack_necked_stilt.png in Resources */,
 				71A4605E193684BD00376384 /* tmpied_billed_grebe.png in Resources */,
+				2B1D06CB1B5094160057F5A5 /* Notepad2.png in Resources */,
 				71A4603F193684BD00376384 /* tmcoyote.png in Resources */,
 				7101461F191AEC14003B7F81 /* Bird Icon.png in Resources */,
 				71A9905819474DAD008ACE99 /* 4t8.png in Resources */,
