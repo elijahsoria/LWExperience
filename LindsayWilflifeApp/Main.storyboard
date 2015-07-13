@@ -1647,7 +1647,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="sXq-uG-9BG">
-                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="-9"/>
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" title="Lindsay Wildlife Museum" id="xN9-0D-2TE"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -1663,6 +1663,7 @@
         <!--About HomeVC-->
         <scene sceneID="Gqg-6b-FtP">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LfU-kA-Gg3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="cPH-3q-k66" customClass="LWMAbout_HomeVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="o2G-Yl-Myx"/>
@@ -1675,57 +1676,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LWM_landscape image2 (Paul_Hara).png" translatesAutoresizingMaskIntoConstraints="NO" id="Tgl-2a-Tnh">
                                 <rect key="frame" x="-3" y="44" width="323" height="139"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-RE-dTc">
-                                <rect key="frame" x="0.0" y="183" width="130" height="173"/>
-                                <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="Kjb-5e-5rd"/>
-                                    <constraint firstAttribute="height" constant="122" id="bHU-RJ-6UB"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Developers:">
-                                        <attributes>
-                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Marco Avalos
-Elliott Battle
-Anthony Braddick
-Katy Duran
-Alex Lowen
-Weiwei Pan
-Elijah Soria
-John Spalluzzi                                                                </string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3dV-8C-nS9">
-                                <rect key="frame" x="129" y="250" width="191" height="318"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3dV-8C-nS9">
+                                <rect key="frame" x="0.0" y="182" width="320" height="134"/>
                                 <color key="backgroundColor" red="0.63846435550000002" green="0.46115322409999998" blue="0.28338886569999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">The LWM Encounters mobile app is a collaborative creation by Lindsay Wildlife Museum and Saint Mary’s College of California, and made possible by a grant from SENCER:                www.sencer.net                     The goal of the project is to connect the residents of the greater SF Bay Area with local wildlife in order to promote a harmonious and enriched relationship with the nature around us.</string>
                                         <attributes>
-                                            <color key="NSColor" red="0.9836657056" green="1" blue="0.82360516829999997" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="15.1" name="HelveticaNeue"/>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="12.1" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -1752,8 +1711,8 @@ John Spalluzzi                                                                </
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DXX-A4-oI6">
-                                <rect key="frame" x="129" y="183" width="191" height="67"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DXX-A4-oI6">
+                                <rect key="frame" x="107" y="342" width="106" height="226"/>
                                 <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="191" id="Lp3-L8-Gea"/>
@@ -1774,7 +1733,9 @@ John Spalluzzi                                                                </
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="Steve Bachofer, Weiwei Pan, Michele Setter">
+                                    <fragment>
+                                        <string key="content">Steve Bachofer Weiwei Pan
+Michele Setter</string>
                                         <attributes>
                                             <color key="NSColor" red="0.42352941176470588" green="0.41960784313725491" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="12" name="HelveticaNeue"/>
@@ -1785,7 +1746,7 @@ John Spalluzzi                                                                </
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPi-Tc-bKT">
-                                <rect key="frame" x="0.0" y="329" width="130" height="239"/>
+                                <rect key="frame" x="0.0" y="342" width="107" height="226"/>
                                 <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="VRX-lQ-LJc"/>
@@ -1829,6 +1790,48 @@ Lindsay Wildlife Museum                                                         
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-RE-dTc">
+                                <rect key="frame" x="213" y="342" width="107" height="226"/>
+                                <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="Kjb-5e-5rd"/>
+                                    <constraint firstAttribute="height" constant="122" id="bHU-RJ-6UB"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Developers:">
+                                        <attributes>
+                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Marco Avalos
+Elliott Battle
+Anthony Braddick
+Katy Duran
+Alex Lowen
+Weiwei Pan
+Elijah Soria
+John Spalluzzi                                                                </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -1859,7 +1862,6 @@ Lindsay Wildlife Museum                                                         
                         <outlet property="rightText" destination="3dV-8C-nS9" id="9RO-jr-QTO"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LfU-kA-Gg3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4241" y="-2304"/>
         </scene>

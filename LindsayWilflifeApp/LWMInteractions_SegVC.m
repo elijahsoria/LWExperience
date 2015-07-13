@@ -148,8 +148,8 @@
     if (indexPath.row % 2 == 1)
     {
         cell.backgroundColor = [LWMStyle setCellColor:@"dark"];
-        cell.textLabel.textColor = [LWMStyle setTextColor:@"light"];
-        cell.detailTextLabel.textColor = [LWMStyle setTextColor:@"light"];
+        cell.textLabel.textColor = [LWMStyle setTextColor:@"dark"];
+        cell.detailTextLabel.textColor = [LWMStyle setTextColor:@"dark"];
     }
 }
 
