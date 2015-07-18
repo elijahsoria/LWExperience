@@ -28,10 +28,10 @@
 {
     if ([sender isEqualToString:@"dark"])
         //return [UIColor colorWithRed:(108.0/255.0) green:(107.0/255.0) blue:(101.0/255.0) alpha: 1];
-        return [UIColor colorWithRed:0.467 green:0.467 blue:0.4 alpha:1];
+        return [[UIColor blackColor] colorWithAlphaComponent:.55f];
     else if ([sender isEqualToString:@"light"])
-        return [UIColor colorWithRed:(251.0/255.0) green:(251.0/255.0) blue:(210.0/255.0) alpha:1];
-    
+        //return [UIColor colorWithRed:(251.0/255.0) green:(251.0/255.0) blue:(210.0/255.0) alpha:1];
+        return [UIColor colorWithRed:0.467 green:0.467 blue:0.4 alpha:1];
     else
         return nil;
 }
