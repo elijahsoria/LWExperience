@@ -16,6 +16,10 @@
 
 @implementation LWMPictureViewController
 
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+    return UIInterfaceOrientationLandscapeLeft;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,54 +34,15 @@
 {
     [super viewDidLoad];
     
-    /*Tried to get height of image to change with different images
-    float ratio, hgt;
-    
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
-    {
-        CGSize result = [[UIScreen mainScreen] bounds].size;
-        
-        if(result.height == 667)
-        {
-            ratio = 375 / _image.size.width;
-            hgt = _image.size.height * ratio;
-            [_Picture setFrame:CGRectMake(0, 129, 375, hgt)];
-        } else {
-            ratio = 320 / _image.size.width;
-            hgt = _image.size.height * ratio;
-            [_Picture setFrame:CGRectMake(0, 129, 320, hgt)];
-        }
-    }*/
-    self.PicScroll.minimumZoomScale=0.5;
-    
-    self.PicScroll.maximumZoomScale=6.0;
-    
-    self.PicScroll.contentSize=CGSizeMake(320, 220);
-    
-    self.PicScroll.delegate=self;
-    
     _Picture.image=_image;
     
     _Name.attributedText=_NameText;
-    _Name.textColor=[LWMStyle setTextColor:@"light"];
+    _Name.textColor=[UIColor colorWithRed:0.949 green:0.949 blue:0.925 alpha:1];
      //Do any additional setup after loading the view.
     _Habitat.attributedText=_HabText;
-    _Habitat.textColor=[LWMStyle setTextColor:@"light"];
+    _Habitat.textColor=[UIColor colorWithRed:0.949 green:0.949 blue:0.925 alpha:1];
     
 }
-
-/*Trying to get the zoom in scroll view to work
- - (CGRect) zoomRectForScrollView:(UIScrollView *)PicScroll withScale:(float)scale withCenter:(CGPoint)center {
-    CGRect zoomRect;
-    
-    zoomRect.size.height = PicScroll.frame.size.height / scale;
-    zoomRect.size.width  = PicScroll.frame.size.width  / scale;
-    
-    zoomRect.origin.x = center.x - (zoomRect.size.width  / 2.0);
-    zoomRect.origin.y = center.y - (zoomRect.size.height / 2.0);
-    
-    return zoomRect;
-}*/
 
 - (void)viewWillAppear:(BOOL)animated{
     CGAffineTransform landscapeTransform = CGAffineTransformMakeRotation(0.0f * M_PI / 180.0f);

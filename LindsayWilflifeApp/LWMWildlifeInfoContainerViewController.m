@@ -35,7 +35,7 @@
     
     _infoName.attributedText = _name;
     _infoName.backgroundColor = [LWMStyle setDetailBackgroundColor:@"black"];
-    _infoName.textColor = [LWMStyle setTextColor:@"light"];
+    _infoName.textColor = [UIColor colorWithRed:0.949 green:0.949 blue:0.925 alpha:1];
 
     
     _infoDescription.backgroundColor = [LWMStyle setDetailBackgroundColor:@"light"];
