@@ -18,35 +18,18 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.84999999999999987" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="watermark1.png" translatesAutoresizingMaskIntoConstraints="NO" id="VM8-g5-wEJ">
-                                <rect key="frame" x="18" y="149" width="286" height="222"/>
-                                <color key="backgroundColor" red="0.72783532299999998" green="0.70521803500000002" blue="0.4659066804" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="CameraBigGray.png" translatesAutoresizingMaskIntoConstraints="NO" id="VM8-g5-wEJ">
+                                <rect key="frame" x="17" y="151" width="286" height="222"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDV-94-MZg">
+                            <button opaque="NO" alpha="0.49999999999999961" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDV-94-MZg">
                                 <rect key="frame" x="170" y="395" width="150" height="60"/>
-                                <color key="backgroundColor" red="0.63846435550000002" green="0.46115322409999998" blue="0.28338886569999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="26"/>
                                 <state key="normal" title="Take Photo">
-                                    <color key="titleColor" red="0.98366570470000003" green="1" blue="0.82360517980000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="takePhoto:" destination="TLH-a1-en0" eventType="touchUpInside" id="24K-lR-tOn"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1k-h8-Dei">
-                                <rect key="frame" x="0.0" y="395" width="170" height="60"/>
-                                <color key="backgroundColor" red="0.63846435550000002" green="0.46115322409999998" blue="0.28338886569999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="TpY-U7-OUe"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="26"/>
-                                <state key="normal" title="Select Photo">
-                                    <color key="titleColor" red="0.98366570470000003" green="1" blue="0.82360517980000003" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="selectPhoto:" destination="TLH-a1-en0" eventType="touchUpInside" id="SxV-rI-dWO"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nm2-5u-CNe">
@@ -57,7 +40,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content=" TITLE:">
                                         <attributes>
-                                            <color key="NSColor" red="0.98366570470000003" green="1" blue="0.82360517980000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="23" name="HelveticaNeue-Light"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -65,9 +48,9 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Start with a Picture or a Title" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eAY-qy-9Pn">
+                            <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Start with a Picture or a Title" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eAY-qy-9Pn">
                                 <rect key="frame" x="73" y="26" width="240" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
@@ -75,9 +58,9 @@
                                     <outlet property="delegate" destination="TLH-a1-en0" id="t3x-Oy-PkJ"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fp3-qz-Vie">
+                            <textField clipsSubviews="YES" tag="1" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fp3-qz-Vie">
                                 <rect key="frame" x="73" y="59" width="240" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.42196276780000003" green="0.42153969409999997" blue="0.3961130679" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -90,7 +73,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content=" DATE:">
                                         <attributes>
-                                            <color key="NSColor" red="0.95448631049999999" green="0.96940809490000002" blue="0.79805243020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="23" name="HelveticaNeue-Light"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -98,9 +81,9 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lra-J7-n24">
+                            <textField clipsSubviews="YES" tag="2" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lra-J7-n24">
                                 <rect key="frame" x="73" y="92" width="97" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.42196276780000003" green="0.42153969409999997" blue="0.3961130679" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
@@ -108,9 +91,9 @@
                                     <outlet property="delegate" destination="TLH-a1-en0" id="YZQ-vi-Ll6"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fmL-Nt-yhs">
+                            <textField clipsSubviews="YES" tag="3" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fmL-Nt-yhs">
                                 <rect key="frame" x="248" y="92" width="65" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="65" id="dHm-jQ-2a7"/>
                                 </constraints>
@@ -130,7 +113,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content=" CITY:">
                                         <attributes>
-                                            <color key="NSColor" red="0.98366570470000003" green="1" blue="0.82360517980000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="23" name="HelveticaNeue-Light"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -146,7 +129,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="STATE:">
                                         <attributes>
-                                            <color key="NSColor" red="0.95448631049999999" green="0.96940809490000002" blue="0.79805243020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="23" name="HelveticaNeue-Light"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -154,8 +137,21 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" alpha="0.49999999999999961" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1k-h8-Dei">
+                                <rect key="frame" x="0.0" y="395" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="TpY-U7-OUe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="26"/>
+                                <state key="normal" title="Select Photo">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectPhoto:" destination="TLH-a1-en0" eventType="touchUpInside" id="SxV-rI-dWO"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.72783532299999998" green="0.70521803500000002" blue="0.4659066804" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="sDV-94-MZg" firstAttribute="bottom" secondItem="x1k-h8-Dei" secondAttribute="bottom" id="1bO-NH-Pmc"/>
                             <constraint firstItem="nm2-5u-CNe" firstAttribute="leading" secondItem="NWd-A8-NEn" secondAttribute="leading" constant="1" id="3U1-7t-p97"/>
@@ -752,26 +748,11 @@
                                     <segue destination="5Ah-1c-TA3" kind="embed" id="sfI-Qz-g3N"/>
                                 </connections>
                             </containerView>
-                            <searchBar contentMode="redraw" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="FIF-BD-4KO">
-                                <rect key="frame" x="0.0" y="-4" width="320" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="0Po-RD-dXN" id="fLf-ai-MHx"/>
-                                </connections>
-                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="WILDLIFE" id="zSq-HC-gt1">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="rJu-4W-xaS">
-                            <connections>
-                                <action selector="SrchAction:" destination="0Po-RD-dXN" id="hhW-2W-E6A"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="WILDLIFE" id="zSq-HC-gt1"/>
                     <connections>
-                        <outlet property="SrchBar" destination="FIF-BD-4KO" id="cqG-Gr-Yh8"/>
-                        <outlet property="SrchButton" destination="rJu-4W-xaS" id="qLK-zk-lmA"/>
                         <outlet property="animalView" destination="dNW-EO-0gu" id="pIo-yZ-eWO"/>
                         <outlet property="habitatView" destination="nmG-ZY-ZDI" id="R8f-lm-CBl"/>
                         <outlet property="searchDisplayController" destination="DBm-Uv-F5s" id="cCA-Sk-pTm"/>
@@ -781,7 +762,6 @@
                 <searchDisplayController id="DBm-Uv-F5s">
                     <connections>
                         <outlet property="delegate" destination="0Po-RD-dXN" id="k2r-Z4-edb"/>
-                        <outlet property="searchBar" destination="FIF-BD-4KO" id="3Oa-XP-0eX"/>
                         <outlet property="searchContentsController" destination="0Po-RD-dXN" id="cLh-7c-2Bf"/>
                         <outlet property="searchResultsDataSource" destination="0Po-RD-dXN" id="o4X-tq-DI3"/>
                         <outlet property="searchResultsDelegate" destination="0Po-RD-dXN" id="i01-2P-iXC"/>
@@ -847,7 +827,6 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.3136833268" green="0.31497802730000002" blue="0.2780345924" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="faa-h1-Vj0"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -1153,7 +1132,6 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.3136833268" green="0.31497802730000002" blue="0.2780345924" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="JOc-vd-Qwx"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -3095,11 +3073,11 @@ W-S: 10AM - 5PM</string>
                         <viewControllerLayoutGuide type="bottom" id="epy-ex-mHa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="eSC-NJ-WWi">
-                        <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                        <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUy-Bl-87K">
-                                <rect key="frame" x="0.0" y="-2" width="320" height="680"/>
+                                <rect key="frame" x="0.0" y="-2" width="320" height="660"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="36a-9p-lyf">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="341"/>
@@ -3314,11 +3292,11 @@ W-S: 10AM - 5PM</string>
                         <viewControllerLayoutGuide type="bottom" id="IIS-sv-bLw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZnO-mW-axk">
-                        <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                        <rect key="frame" x="0.0" y="44" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Vwo-QV-1Sm">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="newCell" id="GWi-Rf-PGb" customClass="LWMTagCell">
@@ -3426,6 +3404,7 @@ W-S: 10AM - 5PM</string>
         <image name="Amphibian Icon.png" width="452" height="463"/>
         <image name="Backyard Icon.png" width="463" height="454"/>
         <image name="Bird Icon.png" width="529" height="492"/>
+        <image name="CameraBigGray.png" width="677" height="509"/>
         <image name="Contact1.jpg" width="640" height="249"/>
         <image name="Contact2.jpg" width="576" height="313"/>
         <image name="Home Text.png" width="411" height="687"/>
@@ -3446,7 +3425,6 @@ W-S: 10AM - 5PM</string>
         <image name="lwm logo home.png" width="1250" height="1250"/>
         <image name="maginfy-plus.png" width="64" height="64"/>
         <image name="pencil.png" width="64" height="64"/>
-        <image name="watermark1.png" width="401" height="378"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -3454,11 +3432,11 @@ W-S: 10AM - 5PM</string>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="jAE-qQ-fL2"/>
         <segue reference="nPR-Nb-Mjn"/>
         <segue reference="crH-Td-ibT"/>
         <segue reference="OxV-gf-iPV"/>
-        <segue reference="hNl-lM-JlG"/>
-        <segue reference="hBM-Lf-WaP"/>
+        <segue reference="3or-xW-NIX"/>
+        <segue reference="PCX-hC-78R"/>
+        <segue reference="jAE-qQ-fL2"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -24,9 +24,11 @@
     _location=@"Unknown";
     _isConnectionAvailable=0;
     
-    _date_label.backgroundColor=self.view.backgroundColor;
-    _location_labelCity.backgroundColor=self.view.backgroundColor;
-    _location_labelState.backgroundColor=self.view.backgroundColor;
+    _date_label.backgroundColor=[UIColor whiteColor];
+    _location_labelCity.backgroundColor=[UIColor whiteColor];
+    _location_labelState.backgroundColor=[UIColor whiteColor];
+    
+    self.view.backgroundColor = [LWMStyle setCellColor:@"light"];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
     
@@ -196,8 +198,8 @@
                     _location_labelState.text = @"Unknown";
                     _location=@"Unknown";
                     _meta_location = @"Unknown";
-                    _location_labelCity.enabled = YES;
-                    _location_labelState.enabled = YES;
+                    //_location_labelCity.enabled = YES;
+                    //_location_labelState.enabled = YES;
                     _location_labelCity.backgroundColor=[LWMStyle setCellColor:@"light"];
                     _location_labelState.backgroundColor=[LWMStyle setCellColor:@"light"];
                     
@@ -228,8 +230,8 @@
                     _location_labelState.text = @"Unknown";
                     _location=@"Unknown";
                     _meta_location = @"Unknown";
-                    _location_labelCity.enabled = YES;
-                    _location_labelState.enabled = YES;
+                    //_location_labelCity.enabled = YES;
+                    //_location_labelState.enabled = YES;
                     _location_labelCity.backgroundColor=[LWMStyle setCellColor:@"light"];
                     _location_labelState.backgroundColor=[LWMStyle setCellColor:@"light"];
                 }
@@ -311,8 +313,8 @@
                 _location=_meta_location;
                 _location_labelCity.backgroundColor=[LWMStyle setCellColor:@"light"];
                 _location_labelState.backgroundColor=[LWMStyle setCellColor:@"light"];
-                _location_labelCity.enabled = YES;
-                _location_labelState.enabled = YES;
+               // _location_labelCity.enabled = YES;
+                //_location_labelState.enabled = YES;
                 
                 [geocoder reverseGeocodeLocation:temploc completionHandler:^(NSArray *placemarks, NSError *error) {
                     //10
@@ -343,8 +345,8 @@
                 _location_labelCity.backgroundColor=[UIColor whiteColor];
                 _location_labelState.backgroundColor=[UIColor whiteColor];
 
-                _location_labelCity.enabled = YES;
-                _location_labelState.enabled = YES;
+                //_location_labelCity.enabled = YES;
+                //_location_labelState.enabled = YES;
             }
             
             
@@ -703,14 +705,14 @@
     _referenceURL=nil;
     _note=[[Note alloc] init];
     _location=@"Unknown";
-    _imageBox.image=[UIImage imageNamed:@"watermark1.png"];
+    _imageBox.image=[UIImage imageNamed:@"CameraBigGray.png"];
     _date_label.text=@"";
     _location_labelCity.text=@"";
     _location_labelState.text=@"";
     _name_label.text=@"";
-    _date_label.backgroundColor=self.view.backgroundColor;
-    _location_labelCity.backgroundColor=self.view.backgroundColor;
-    _location_labelState.backgroundColor=self.view.backgroundColor;
+    _date_label.backgroundColor=[UIColor whiteColor];
+    _location_labelCity.backgroundColor=[UIColor whiteColor];
+    _location_labelState.backgroundColor=[UIColor whiteColor];
 }
 
 - (IBAction)Reset:(id)sender {

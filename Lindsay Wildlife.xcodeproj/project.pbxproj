@@ -24,6 +24,8 @@
 		2B1D06D41B5542300057F5A5 /* lwm logo grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D06D21B5542300057F5A5 /* lwm logo grey@2x.png */; };
 		2B1D06D61B5544580057F5A5 /* lwm logo home.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D06D51B5544580057F5A5 /* lwm logo home.png */; };
 		2B1D06D91B5DA6C40057F5A5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D06D71B5DA6C40057F5A5 /* Model.xcdatamodeld */; };
+		2B1D06DD1B6052EF0057F5A5 /* CameraBigBlack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D06DC1B6052EF0057F5A5 /* CameraBigBlack@2x.png */; };
+		2B1D06DF1B60544B0057F5A5 /* CameraBigGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D06DE1B60544B0057F5A5 /* CameraBigGray@2x.png */; };
 		2BA8BD061B4C9EFF00B18DC9 /* House@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD041B4C9EFF00B18DC9 /* House@2x.png */; };
 		2BA8BD071B4C9EFF00B18DC9 /* House2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD051B4C9EFF00B18DC9 /* House2@2x.png */; };
 		2BA8BD0A1B4CC63A00B18DC9 /* Camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD081B4CC63A00B18DC9 /* Camera@2x.png */; };
@@ -388,6 +390,8 @@
 		2B1D06D21B5542300057F5A5 /* lwm logo grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lwm logo grey@2x.png"; sourceTree = "<group>"; };
 		2B1D06D51B5544580057F5A5 /* lwm logo home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lwm logo home.png"; sourceTree = "<group>"; };
 		2B1D06D81B5DA6C40057F5A5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		2B1D06DC1B6052EF0057F5A5 /* CameraBigBlack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraBigBlack@2x.png"; sourceTree = "<group>"; };
+		2B1D06DE1B60544B0057F5A5 /* CameraBigGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraBigGray@2x.png"; sourceTree = "<group>"; };
 		2BA8BD041B4C9EFF00B18DC9 /* House@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House@2x.png"; sourceTree = "<group>"; };
 		2BA8BD051B4C9EFF00B18DC9 /* House2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House2@2x.png"; sourceTree = "<group>"; };
 		2BA8BD081B4CC63A00B18DC9 /* Camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera@2x.png"; sourceTree = "<group>"; };
@@ -859,6 +863,8 @@
 				71AB669C19404B6300695FF4 /* globe.png */,
 				71AB669D19404B6300695FF4 /* group.png */,
 				71AB669E19404B6300695FF4 /* location.png */,
+				2B1D06DC1B6052EF0057F5A5 /* CameraBigBlack@2x.png */,
+				2B1D06DE1B60544B0057F5A5 /* CameraBigGray@2x.png */,
 				71AB669F19404B6300695FF4 /* maginfy-plus.png */,
 				71AB66A019404B6300695FF4 /* pencil.png */,
 				71AB66A119404B6300695FF4 /* call1.png */,
@@ -1591,6 +1597,7 @@
 				7123EC9C1935D0C50077141D /* Lindsay Front.png in Resources */,
 				71A46057193684BD00376384 /* tmnorthern_harrier.png in Resources */,
 				7101461B191AEB5D003B7F81 /* Backyard Icon.png in Resources */,
+				2B1D06DD1B6052EF0057F5A5 /* CameraBigBlack@2x.png in Resources */,
 				71A45F6A1936849500376384 /* bobcat.png in Resources */,
 				71A45F921936849500376384 /* mallard.png in Resources */,
 				71A45FA31936849500376384 /* ring_billed_gull.png in Resources */,
@@ -1707,6 +1714,7 @@
 				71A45FA91936849500376384 /* virginia_opossum.png in Resources */,
 				71A46053193684BD00376384 /* tmmallard.png in Resources */,
 				71A45F981936849500376384 /* northern_river_otter.png in Resources */,
+				2B1D06DF1B60544B0057F5A5 /* CameraBigGray@2x.png in Resources */,
 				71A46039193684BD00376384 /* tmchestnut_backed_chickadee.png in Resources */,
 				71A45F951936849500376384 /* northern_flicker.png in Resources */,
 				71A9907319474E0E008ACE99 /* 5t5.png in Resources */,
