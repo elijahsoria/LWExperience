@@ -30,8 +30,8 @@
 
     self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
     self.navigationController.navigationBar.translucent = NO;
-    _RightPane.backgroundColor=[LWMStyle setDetailBackgroundColor:@"dark"];
-    _LeftButton.backgroundColor=[LWMStyle setDetailBackgroundColor:@"dark"];
+    _RightPane.backgroundColor=[LWMStyle setDetailBackgroundColor:@"brown"];
+    _LeftButton.backgroundColor=[LWMStyle setDetailBackgroundColor:@"brown"];
 }
 
 - (void)didReceiveMemoryWarning

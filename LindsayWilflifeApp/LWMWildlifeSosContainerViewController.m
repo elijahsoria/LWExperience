@@ -39,7 +39,7 @@
     
     _sosName.attributedText = _name;
     _sosName.backgroundColor = [LWMStyle setDetailBackgroundColor:@"black"];
-    _sosName.textColor = [LWMStyle setTextColor:@"light"];
+    _sosName.textColor = [UIColor colorWithRed:0.949 green:0.949 blue:0.925 alpha:1];
     
     _sosPicture.image = [UIImage imageNamed:_picture];
     
