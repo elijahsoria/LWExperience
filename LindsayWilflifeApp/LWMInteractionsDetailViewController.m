@@ -52,7 +52,7 @@
     _descript.textAlignment = NSTextAlignmentNatural;
     ////
     
-    _name.textColor = [LWMStyle setTextColor:@"light"];
+    _name.textColor = [LWMStyle setTextColor:@"yellow"];
     _name.font = [LWMStyle setFont:@"title"];
 
     _descriptionBackground.backgroundColor = [LWMStyle setDetailBackgroundColor:@"light"];

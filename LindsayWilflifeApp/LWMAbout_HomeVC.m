@@ -28,7 +28,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _rightText.backgroundColor = [LWMStyle setDetailBackgroundColor:@"brown"];
+    self.view.backgroundColor = [LWMStyle setCellColor:@"light"];
+    _leftText.textColor = [LWMStyle setTextColor:@"dark"];
+    _rightText.textColor = [LWMStyle setTextColor:@"dark"];
 	// Do any additional setup after loading the view.
 }
 

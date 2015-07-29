@@ -17,5 +17,7 @@
 - (IBAction)backbutton:(id)sender;
 @property (strong, nonatomic) IBOutlet UITextView *RightPane;
 @property (strong, nonatomic) IBOutlet UIButton *LeftButton;
+@property (strong, nonatomic) IBOutlet UITextView *LeftPane;
+@property (strong, nonatomic) IBOutlet UIButton *RightButton;
 
 @end

@@ -74,7 +74,7 @@
     tabBarItem4.selectedImage = [[UIImage imageNamed:@"Paw.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     tabBarItem4.image = [[UIImage imageNamed:@"Paw2.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     tabBarItem5.image = [[UIImage imageNamed:@"lwm logo grey.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    tabBarItem5.selectedImage = [[UIImage imageNamed:@"lwm logo dark.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem5.selectedImage = [[UIImage imageNamed:@"lwm logo dark2.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 
     
     return YES;

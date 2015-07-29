@@ -40,7 +40,7 @@
     _aboutDescription.textAlignment = NSTextAlignmentNatural;
     _aboutDescription.layer.cornerRadius = 20.0;
     
-    _aboutTitle.textColor = [LWMStyle setTextColor:@"light"];
+    _aboutTitle.textColor = [LWMStyle setTextColor:@"yellow"];
     _aboutTitle.font = [LWMStyle setFont:@"title"];
     _aboutTitle.text = @"Museum History and Mission";
     

@@ -32,6 +32,8 @@
     else if ([sender isEqualToString:@"light"])
         //return [UIColor colorWithRed:(251.0/255.0) green:(251.0/255.0) blue:(210.0/255.0) alpha:1];
         return [UIColor colorWithRed:0.467 green:0.467 blue:0.4 alpha:1];
+    else if ([sender isEqualToString:@"yellow"])
+        return [UIColor colorWithRed:(255.0/255.0) green:(254.0/255.0) blue:(171.0/255.0) alpha:.75];
     else
         return nil;
 }

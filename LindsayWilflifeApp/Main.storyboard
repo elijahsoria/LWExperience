@@ -1626,29 +1626,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LWM_landscape image2 (Paul_Hara).png" translatesAutoresizingMaskIntoConstraints="NO" id="Tgl-2a-Tnh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LWM_landscape image2 (Paul_Hara).png" translatesAutoresizingMaskIntoConstraints="NO" id="Tgl-2a-Tnh">
                                 <rect key="frame" x="-3" y="44" width="323" height="139"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3dV-8C-nS9">
-                                <rect key="frame" x="0.0" y="182" width="320" height="134"/>
-                                <color key="backgroundColor" red="0.63846435550000002" green="0.46115322409999998" blue="0.28338886569999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">The LWM Encounters mobile app is a collaborative creation by Lindsay Wildlife Museum and Saint Mary’s College of California, and made possible by a grant from SENCER:                www.sencer.net                     The goal of the project is to connect the residents of the greater SF Bay Area with local wildlife in order to promote a harmonious and enriched relationship with the nature around us.</string>
-                                        <attributes>
-                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="12.1" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FcQ-9K-FbA">
+                            <imageView userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lwm logo home.png" translatesAutoresizingMaskIntoConstraints="NO" id="fBA-Ik-2rb">
+                                <rect key="frame" x="182" y="434" width="150" height="150"/>
+                                <color key="tintColor" red="0.91764705882352937" green="0.92941176470588238" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FcQ-9K-FbA">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="15a-ox-u5G"/>
-                                </constraints>
                                 <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" red="0.95294117649999999" green="0.96862745100000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -1664,13 +1650,8 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DXX-A4-oI6">
-                                <rect key="frame" x="107" y="342" width="106" height="226"/>
-                                <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="191" id="Lp3-L8-Gea"/>
-                                    <constraint firstAttribute="height" constant="67" id="z9F-b7-clJ"/>
-                                </constraints>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DXX-A4-oI6">
+                                <rect key="frame" x="214" y="294" width="106" height="226"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Principal Investigators: ">
                                         <attributes>
@@ -1698,12 +1679,8 @@ Michele Setter</string>
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPi-Tc-bKT">
-                                <rect key="frame" x="0.0" y="342" width="107" height="226"/>
-                                <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="VRX-lQ-LJc"/>
-                                </constraints>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPi-Tc-bKT">
+                                <rect key="frame" x="0.0" y="294" width="107" height="226"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Photo Credits:">
                                         <attributes>
@@ -1743,13 +1720,8 @@ Lindsay Wildlife Museum                                                         
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-RE-dTc">
-                                <rect key="frame" x="213" y="342" width="107" height="226"/>
-                                <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="Kjb-5e-5rd"/>
-                                    <constraint firstAttribute="height" constant="122" id="bHU-RJ-6UB"/>
-                                </constraints>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-RE-dTc">
+                                <rect key="frame" x="107" y="294" width="107" height="226"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Developers:">
                                         <attributes>
@@ -1785,29 +1757,22 @@ John Spalluzzi                                                                </
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3dV-8C-nS9">
+                                <rect key="frame" x="0.0" y="182" width="320" height="120"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">The LWM Encounters mobile app is a collaborative creation by Lindsay Wildlife Museum and Saint Mary’s College of California, and made possible by a grant from SENCER: www.sencer.net. The goal of the project is to connect the residents of the greater SF Bay Area with local wildlife in order to promote a harmonious and enriched relationship with the nature around us.</string>
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="12.1" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="fPi-Tc-bKT" firstAttribute="leading" secondItem="mfZ-CZ-HE7" secondAttribute="leading" constant="-1" id="08g-hf-rnP"/>
-                            <constraint firstAttribute="bottom" secondItem="3dV-8C-nS9" secondAttribute="bottom" id="8BJ-1h-WnC"/>
-                            <constraint firstItem="3dV-8C-nS9" firstAttribute="top" secondItem="Tgl-2a-Tnh" secondAttribute="bottom" constant="67" id="BOE-Tg-das"/>
-                            <constraint firstItem="DXX-A4-oI6" firstAttribute="top" secondItem="5rj-RE-dTc" secondAttribute="top" id="CdU-VN-8wo"/>
-                            <constraint firstItem="fPi-Tc-bKT" firstAttribute="bottom" secondItem="3dV-8C-nS9" secondAttribute="bottom" id="D4q-ft-uYf"/>
-                            <constraint firstItem="fPi-Tc-bKT" firstAttribute="trailing" secondItem="5rj-RE-dTc" secondAttribute="trailing" constant="-1" id="IOu-zf-7Lk"/>
-                            <constraint firstItem="DXX-A4-oI6" firstAttribute="top" secondItem="Tgl-2a-Tnh" secondAttribute="bottom" id="K1s-P9-CST"/>
-                            <constraint firstItem="Tgl-2a-Tnh" firstAttribute="leading" secondItem="mfZ-CZ-HE7" secondAttribute="leading" constant="-3" id="MkF-OP-78z"/>
-                            <constraint firstItem="FcQ-9K-FbA" firstAttribute="top" secondItem="mfZ-CZ-HE7" secondAttribute="top" id="Poh-Xl-bRA"/>
-                            <constraint firstItem="1fY-e2-tMR" firstAttribute="top" secondItem="DXX-A4-oI6" secondAttribute="bottom" constant="318" id="Q5t-la-HoL"/>
-                            <constraint firstItem="FcQ-9K-FbA" firstAttribute="leading" secondItem="5rj-RE-dTc" secondAttribute="leading" id="R1c-DQ-7Z5"/>
-                            <constraint firstAttribute="trailing" secondItem="FcQ-9K-FbA" secondAttribute="trailing" id="cat-vC-1j5"/>
-                            <constraint firstItem="5rj-RE-dTc" firstAttribute="leading" secondItem="fPi-Tc-bKT" secondAttribute="leading" constant="1" id="dUJ-Ot-L3l"/>
-                            <constraint firstItem="Tgl-2a-Tnh" firstAttribute="trailing" secondItem="FcQ-9K-FbA" secondAttribute="trailing" id="gDw-uk-SDc"/>
-                            <constraint firstItem="Tgl-2a-Tnh" firstAttribute="top" secondItem="FcQ-9K-FbA" secondAttribute="bottom" id="gWK-Ms-1Mn"/>
-                            <constraint firstItem="fPi-Tc-bKT" firstAttribute="top" secondItem="5rj-RE-dTc" secondAttribute="bottom" constant="-1" id="mnf-yb-ebv"/>
-                            <constraint firstItem="Tgl-2a-Tnh" firstAttribute="trailing" secondItem="DXX-A4-oI6" secondAttribute="trailing" id="n3T-4R-MEy"/>
-                            <constraint firstItem="3dV-8C-nS9" firstAttribute="trailing" secondItem="DXX-A4-oI6" secondAttribute="trailing" id="pAM-Wa-ING"/>
-                            <constraint firstItem="3dV-8C-nS9" firstAttribute="leading" secondItem="DXX-A4-oI6" secondAttribute="leading" id="vA6-o8-dnB"/>
-                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
@@ -2712,11 +2677,8 @@ John Spalluzzi                                                                </
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2H-FU-7LX">
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2H-FU-7LX">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="6UF-NK-ckt"/>
-                                </constraints>
                                 <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" red="0.95294117649999999" green="0.96862745100000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -2732,36 +2694,21 @@ John Spalluzzi                                                                </
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Contact1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YJ3-h0-IF7">
-                                <rect key="frame" x="0.0" y="44" width="320" height="105"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="105" id="QiN-Q0-5tv"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Contact2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ywj-Ax-HpB">
-                                <rect key="frame" x="0.0" y="463" width="320" height="105"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="105" id="Ldv-NR-bw2"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1p-wR-4hx">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1p-wR-4hx">
                                 <rect key="frame" x="0.0" y="399" width="160" height="63"/>
-                                <color key="backgroundColor" red="0.67594856020000005" green="0.68409115080000005" blue="0.57911163570000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="63" id="OYt-2P-9tj"/>
-                                </constraints>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
                                 <color key="tintColor" red="0.84061698200000001" green="0.85074321159999999" blue="0.72018954909999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Call Lindsay">
-                                    <color key="titleColor" red="0.98366570470000003" green="1" blue="0.82360517980000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.42352941179999998" green="0.41960784309999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="gvt-E8-Et5" eventType="touchUpInside" id="tVl-EI-4vl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqh-y9-CI6">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqh-y9-CI6">
                                 <rect key="frame" x="160" y="399" width="160" height="63"/>
-                                <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
                                 <state key="normal" title="Get Directions">
                                     <color key="titleColor" red="0.42352941179999998" green="0.41960784309999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -2770,18 +2717,14 @@ John Spalluzzi                                                                </
                                     <action selector="buttonPressed:" destination="gvt-E8-Et5" eventType="touchUpInside" id="53y-Lm-qGd"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dEN-Ux-GwU">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dEN-Ux-GwU">
                                 <rect key="frame" x="0.0" y="149" width="160" height="251"/>
-                                <color key="backgroundColor" red="1" green="0.99519114610000003" blue="0.66864035600000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="Bcf-EG-9cs"/>
-                                </constraints>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Admission">
+                                    <fragment content="Hours">
                                         <attributes>
-                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
-                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
                                                 <tabStops>
                                                     <textTab alignment="left" location="64"/>
@@ -2796,9 +2739,8 @@ John Spalluzzi                                                                </
 Cg
 </string>
                                         <attributes>
-                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="18" name="HelveticaNeue"/>
-                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                            <font key="NSFont" size="16" name=".HelveticaNeueDeskInterface-Regular"/>
+                                            <font key="NSOriginalFont" size="16" name=".HelveticaNeueDeskInterface-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
                                                 <tabStops>
                                                     <textTab alignment="left" location="64"/>
@@ -2807,97 +2749,64 @@ Cg
                                             <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="$8.50">
-                                        <attributes>
-                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="16" name="HelveticaNeue-Bold"/>
-                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </attributes>
-                                    </fragment>
                                     <fragment>
-                                        <string key="content"> for adults
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
-                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="$7.50">
-                                        <attributes>
-                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="16" name="HelveticaNeue-Bold"/>
-                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> for seniors
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
-                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="$6.50">
-                                        <attributes>
-                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="16" name="HelveticaNeue-Bold"/>
-                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> for ages 2 -17
+                                        <string key="content">Sep 13−June 17:
+W-F: 12PM - 5PM
+S, Su: 10AM - 5PM
 
-</string>
+June 18–Labor Day:
+W-S: 10AM - 5PM</string>
                                         <attributes>
-                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
-                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                            <font key="NSOriginalFont" size="16" name=".HelveticaNeueDeskInterface-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
-                                                <tabStops/>
+                                                <tabStops>
+                                                    <textTab alignment="left" location="64"/>
+                                                </tabStops>
                                             </paragraphStyle>
                                             <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="FREE">
+                                    <fragment content="  ">
                                         <attributes>
-                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="16" name="HelveticaNeue-Bold"/>
-                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                            <font key="NSFont" size="16" name=".HelveticaNeueDeskInterface-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
-                                                <tabStops/>
+                                                <tabStops>
+                                                    <textTab alignment="left" location="64"/>
+                                                </tabStops>
                                             </paragraphStyle>
                                             <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content=" for members and for children under 2 years old!">
+                                    <fragment content="Every Tuesday the exhibit hall is open from 10AM-5PM for ">
                                         <attributes>
-                                            <color key="NSColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
-                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
-                                                <tabStops/>
+                                                <tabStops>
+                                                    <textTab alignment="left" location="64"/>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="members only">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="64"/>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="!">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="64"/>
+                                                </tabStops>
                                             </paragraphStyle>
                                             <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
@@ -2905,15 +2814,20 @@ Cg
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjf-ZQ-S2O">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Contact2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ywj-Ax-HpB">
+                                <rect key="frame" x="0.0" y="463" width="320" height="105"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Contact1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YJ3-h0-IF7">
+                                <rect key="frame" x="0.0" y="44" width="320" height="105"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjf-ZQ-S2O">
                                 <rect key="frame" x="160" y="149" width="160" height="251"/>
-                                <color key="backgroundColor" red="0.6705882352941176" green="0.68235294117647061" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Contact Us">
+                                    <fragment content="Admission">
                                         <attributes>
-                                            <color key="NSColor" red="0.9836657056" green="1" blue="0.82360516829999997" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
-                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
                                                 <tabStops>
                                                     <textTab alignment="left" location="64"/>
@@ -2928,71 +2842,146 @@ Cg
 Cg
 </string>
                                         <attributes>
-                                            <color key="NSColor" red="0.9836657056" green="1" blue="0.82360516829999997" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
-                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
                                                 <tabStops>
                                                     <textTab alignment="left" location="64"/>
                                                 </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="$8.50 ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="for adults">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+$7.50 </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="for seniors">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+$6.50 </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="for ages 2 -17">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+FREE </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="for members and for children under 2 years old! ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Contact Us">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
+                                                <tabStops/>
                                             </paragraphStyle>
                                             <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content">1931 First Ave
-Walnut Creek, CA 94597
-</string>
+Walnut Creek, CA 94597</string>
                                         <attributes>
-                                            <color key="NSColor" red="0.9836657056" green="1" blue="0.82360516829999997" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
-                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
-                                                <tabStops>
-                                                    <textTab alignment="left" location="64"/>
-                                                </tabStops>
-                                            </paragraphStyle>
-                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.42352941176470588" green="0.41960784313725491" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
-                                                <tabStops>
-                                                    <textTab alignment="left" location="64"/>
-                                                </tabStops>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="Hours">
-                                        <attributes>
-                                            <color key="NSColor" red="0.9836657056" green="1" blue="0.82360516829999997" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
-                                                <tabStops>
-                                                    <textTab alignment="left" location="64"/>
-                                                </tabStops>
-                                            </paragraphStyle>
-                                            <integer key="NSUnderline" value="1"/>
-                                            <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">
-Sep 13−June 17:
-W-F: 12PM - 5PM
-S, Su: 10AM - 5PM
-
-June 18–Labor Day:
-W-S: 10AM - 5PM</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.9836657056" green="1" blue="0.82360516829999997" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Light"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
                                                 <tabStops>
                                                     <textTab alignment="left" location="64"/>
@@ -3005,37 +2994,13 @@ W-S: 10AM - 5PM</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.4219627809" green="0.42153968539999997" blue="0.39611305619999998" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="fjf-ZQ-S2O" firstAttribute="trailing" secondItem="YJ3-h0-IF7" secondAttribute="trailing" id="51g-BL-Qzb"/>
-                            <constraint firstItem="t2H-FU-7LX" firstAttribute="top" secondItem="bf8-wS-MUp" secondAttribute="top" id="DXe-YF-na9"/>
-                            <constraint firstItem="fjf-ZQ-S2O" firstAttribute="top" secondItem="dEN-Ux-GwU" secondAttribute="top" id="DsR-6G-fmz"/>
-                            <constraint firstItem="YJ3-h0-IF7" firstAttribute="leading" secondItem="t2H-FU-7LX" secondAttribute="leading" id="GdI-un-8K9"/>
-                            <constraint firstItem="fjf-ZQ-S2O" firstAttribute="bottom" secondItem="dEN-Ux-GwU" secondAttribute="bottom" id="JvK-Mu-3P0"/>
-                            <constraint firstItem="fjf-ZQ-S2O" firstAttribute="trailing" secondItem="yqh-y9-CI6" secondAttribute="trailing" id="Kcx-mY-JU5"/>
-                            <constraint firstItem="YJ3-h0-IF7" firstAttribute="top" secondItem="t2H-FU-7LX" secondAttribute="bottom" id="T2r-1p-xJS"/>
-                            <constraint firstItem="fjf-ZQ-S2O" firstAttribute="top" secondItem="YJ3-h0-IF7" secondAttribute="bottom" id="U2o-og-fqH"/>
-                            <constraint firstItem="yqh-y9-CI6" firstAttribute="leading" secondItem="fjf-ZQ-S2O" secondAttribute="leading" id="Uh4-bI-Wqp"/>
-                            <constraint firstItem="Ywj-Ax-HpB" firstAttribute="trailing" secondItem="yqh-y9-CI6" secondAttribute="trailing" id="WAl-T1-5PQ"/>
-                            <constraint firstItem="yqh-y9-CI6" firstAttribute="baseline" secondItem="N1p-wR-4hx" secondAttribute="baseline" id="XpQ-OV-4v4"/>
-                            <constraint firstItem="yqh-y9-CI6" firstAttribute="leading" secondItem="N1p-wR-4hx" secondAttribute="trailing" id="b8R-tL-L2K"/>
-                            <constraint firstAttribute="trailing" secondItem="yqh-y9-CI6" secondAttribute="trailing" id="bnW-Cf-2cy"/>
-                            <constraint firstItem="YJ3-h0-IF7" firstAttribute="leading" secondItem="dEN-Ux-GwU" secondAttribute="leading" id="dQi-2q-g04"/>
-                            <constraint firstItem="t2H-FU-7LX" firstAttribute="trailing" secondItem="YJ3-h0-IF7" secondAttribute="trailing" id="ezP-gG-UeN"/>
-                            <constraint firstItem="dEN-Ux-GwU" firstAttribute="leading" secondItem="N1p-wR-4hx" secondAttribute="leading" id="hHu-UP-rLA"/>
-                            <constraint firstItem="Ywj-Ax-HpB" firstAttribute="top" secondItem="dEN-Ux-GwU" secondAttribute="bottom" constant="63" id="lRc-a4-PPA"/>
-                            <constraint firstItem="yqh-y9-CI6" firstAttribute="top" secondItem="N1p-wR-4hx" secondAttribute="top" id="p8g-gZ-dMo"/>
-                            <constraint firstItem="N1p-wR-4hx" firstAttribute="leading" secondItem="Ywj-Ax-HpB" secondAttribute="leading" id="qCz-5t-dO7"/>
-                            <constraint firstItem="N1p-wR-4hx" firstAttribute="bottom" secondItem="yqh-y9-CI6" secondAttribute="bottom" id="qLM-Om-1Xe"/>
-                            <constraint firstItem="dEN-Ux-GwU" firstAttribute="trailing" secondItem="N1p-wR-4hx" secondAttribute="trailing" id="qoX-I1-Fva"/>
-                            <constraint firstItem="Ywj-Ax-HpB" firstAttribute="top" secondItem="N1p-wR-4hx" secondAttribute="bottom" constant="1" id="rbf-4V-vsk"/>
-                            <constraint firstAttribute="bottom" secondItem="Ywj-Ax-HpB" secondAttribute="bottom" id="uj1-Mn-rqn"/>
-                            <constraint firstItem="t2H-FU-7LX" firstAttribute="leading" secondItem="bf8-wS-MUp" secondAttribute="leading" id="wGE-bW-gHG"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="LeftButton" destination="N1p-wR-4hx" id="9IG-mO-X73"/>
+                        <outlet property="LeftPane" destination="dEN-Ux-GwU" id="VKr-oz-kiM"/>
+                        <outlet property="RightButton" destination="yqh-y9-CI6" id="cdW-bT-oEX"/>
                         <outlet property="RightPane" destination="fjf-ZQ-S2O" id="5ey-V7-Rrk"/>
+                        <outlet property="leftPane" destination="dEN-Ux-GwU" id="5WQ-5x-QAI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ILh-4G-wNC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3433,10 +3398,10 @@ W-S: 10AM - 5PM</string>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="PCX-hC-78R"/>
-        <segue reference="crH-Td-ibT"/>
+        <segue reference="MTV-1K-wQC"/>
         <segue reference="nPR-Nb-Mjn"/>
         <segue reference="lqd-1w-4C5"/>
-        <segue reference="3or-xW-NIX"/>
-        <segue reference="MTV-1K-wQC"/>
+        <segue reference="hNl-lM-JlG"/>
+        <segue reference="crH-Td-ibT"/>
     </inferredMetricsTieBreakers>
 </document>

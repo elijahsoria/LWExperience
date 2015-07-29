@@ -42,7 +42,7 @@
     _faqDescription.textAlignment = NSTextAlignmentNatural;
     _faqDescription.font = [LWMStyle setFont:@"description"];
     
-    _faqTitle.textColor = [LWMStyle setTextColor:@"light"];
+    _faqTitle.textColor = [LWMStyle setTextColor:@"yellow"];
     _faqTitle.text = @"Museum Details and Facts";
     _faqTitle.font = [LWMStyle setFont:@"title"];
     

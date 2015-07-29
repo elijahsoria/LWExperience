@@ -20,12 +20,12 @@
 		0077C583180CD93E0063C742 /* LWMMap_SegVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0077C582180CD93E0063C742 /* LWMMap_SegVC.m */; };
 		0077C586180CD9D00063C742 /* LWMTag_SegVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0077C585180CD9D00063C742 /* LWMTag_SegVC.m */; };
 		2B1D06D01B540E050057F5A5 /* Notepad2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D06CF1B540E050057F5A5 /* Notepad2@2x.png */; };
-		2B1D06D31B5542300057F5A5 /* lwm logo dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D06D11B5542300057F5A5 /* lwm logo dark@2x.png */; };
 		2B1D06D41B5542300057F5A5 /* lwm logo grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D06D21B5542300057F5A5 /* lwm logo grey@2x.png */; };
 		2B1D06D61B5544580057F5A5 /* lwm logo home.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D06D51B5544580057F5A5 /* lwm logo home.png */; };
 		2B1D06D91B5DA6C40057F5A5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D06D71B5DA6C40057F5A5 /* Model.xcdatamodeld */; };
 		2B1D06DD1B6052EF0057F5A5 /* CameraBigBlack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D06DC1B6052EF0057F5A5 /* CameraBigBlack@2x.png */; };
 		2B1D06DF1B60544B0057F5A5 /* CameraBigGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D06DE1B60544B0057F5A5 /* CameraBigGray@2x.png */; };
+		2B8E4E1E1B69894F007745CE /* lwm logo dark2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E4E1D1B69894F007745CE /* lwm logo dark2@2x.png */; };
 		2BA8BD061B4C9EFF00B18DC9 /* House@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD041B4C9EFF00B18DC9 /* House@2x.png */; };
 		2BA8BD071B4C9EFF00B18DC9 /* House2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD051B4C9EFF00B18DC9 /* House2@2x.png */; };
 		2BA8BD0A1B4CC63A00B18DC9 /* Camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8BD081B4CC63A00B18DC9 /* Camera@2x.png */; };
@@ -386,12 +386,12 @@
 		0077C584180CD9D00063C742 /* LWMTag_SegVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWMTag_SegVC.h; sourceTree = "<group>"; };
 		0077C585180CD9D00063C742 /* LWMTag_SegVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWMTag_SegVC.m; sourceTree = "<group>"; };
 		2B1D06CF1B540E050057F5A5 /* Notepad2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Notepad2@2x.png"; sourceTree = "<group>"; };
-		2B1D06D11B5542300057F5A5 /* lwm logo dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lwm logo dark@2x.png"; sourceTree = "<group>"; };
 		2B1D06D21B5542300057F5A5 /* lwm logo grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lwm logo grey@2x.png"; sourceTree = "<group>"; };
 		2B1D06D51B5544580057F5A5 /* lwm logo home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lwm logo home.png"; sourceTree = "<group>"; };
 		2B1D06D81B5DA6C40057F5A5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		2B1D06DC1B6052EF0057F5A5 /* CameraBigBlack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraBigBlack@2x.png"; sourceTree = "<group>"; };
 		2B1D06DE1B60544B0057F5A5 /* CameraBigGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraBigGray@2x.png"; sourceTree = "<group>"; };
+		2B8E4E1D1B69894F007745CE /* lwm logo dark2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lwm logo dark2@2x.png"; sourceTree = "<group>"; };
 		2BA8BD041B4C9EFF00B18DC9 /* House@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House@2x.png"; sourceTree = "<group>"; };
 		2BA8BD051B4C9EFF00B18DC9 /* House2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House2@2x.png"; sourceTree = "<group>"; };
 		2BA8BD081B4CC63A00B18DC9 /* Camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera@2x.png"; sourceTree = "<group>"; };
@@ -929,8 +929,8 @@
 				7101463A191C1534003B7F81 /* Home Icon sm@2x.png */,
 				7101463B191C1534003B7F81 /* Lindsay Icon sm@2x.png */,
 				7123EC8F1935CDDD0077141D /* Wildlife Icon sm@2x.png */,
-				2B1D06D11B5542300057F5A5 /* lwm logo dark@2x.png */,
 				2B1D06D21B5542300057F5A5 /* lwm logo grey@2x.png */,
+				2B8E4E1D1B69894F007745CE /* lwm logo dark2@2x.png */,
 				2BA8BD101B4CCD4700B18DC9 /* Notepad@2x.png */,
 				2B1D06CF1B540E050057F5A5 /* Notepad2@2x.png */,
 				2BA8BD041B4C9EFF00B18DC9 /* House@2x.png */,
@@ -1583,6 +1583,7 @@
 				71A45F631936849500376384 /* barn_owl.png in Resources */,
 				71A46044193684BD00376384 /* tmdowny_woodpecker.png in Resources */,
 				71A46018193684BD00376384 /* tmalligator_lizard.png in Resources */,
+				2B8E4E1E1B69894F007745CE /* lwm logo dark2@2x.png in Resources */,
 				71A45FA21936849500376384 /* red_tailed_hawk.png in Resources */,
 				71A9905119474DAD008ACE99 /* 4t1.png in Resources */,
 				71A46052193684BD00376384 /* tmloggerhead_shrike.png in Resources */,
@@ -1644,7 +1645,6 @@
 				71A45FAF1936849500376384 /* western_rattlesnake.png in Resources */,
 				71A46050193684BD00376384 /* tmhouse_finch.png in Resources */,
 				71A9907519474E0E008ACE99 /* 5t7.png in Resources */,
-				2B1D06D31B5542300057F5A5 /* lwm logo dark@2x.png in Resources */,
 				71A46069193684BD00376384 /* tmturkey_vulture.png in Resources */,
 				71A9907A19474E0E008ACE99 /* 5t12.png in Resources */,
 				71A45F971936849500376384 /* northern_mockingbird.png in Resources */,

@@ -27,11 +27,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    self.view.backgroundColor = [LWMStyle setCellColor:@"light"];
     self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
     self.navigationController.navigationBar.translucent = NO;
-    _RightPane.backgroundColor=[LWMStyle setDetailBackgroundColor:@"brown"];
-    _LeftButton.backgroundColor=[LWMStyle setDetailBackgroundColor:@"brown"];
+    _RightPane.backgroundColor=[LWMStyle setCellColor:@"light"];
+    _RightPane.textColor = [LWMStyle setTextColor:@"dark"];
+    _LeftPane.backgroundColor=[LWMStyle setCellColor:@"dark"];
+    _LeftPane.textColor = [LWMStyle setTextColor:@"light"];
+    _LeftButton.backgroundColor=[LWMStyle setCellColor:@"light"];
+    _RightButton.backgroundColor=[LWMStyle setCellColor:@"dark"];
 }
 
 - (void)didReceiveMemoryWarning
