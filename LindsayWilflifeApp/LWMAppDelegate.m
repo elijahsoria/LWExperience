@@ -24,7 +24,8 @@
     
     
     
-    UIColor *myColor = [UIColor colorWithRed:(224.0/255.0) green:(224.0/255.0) blue:(224.0/255.0) alpha:1];
+    //UIColor *myColor = [UIColor colorWithRed:(224.0/255.0) green:(224.0/255.0) blue:(224.0/255.0) alpha:1];
+    UIColor *myColor = [UIColor colorWithRed:(251.0/255.0) green:(255.0/255.0) blue:(210.0/255.0) alpha:1];
     [[UINavigationBar appearance] setTintColor:myColor];
     UIColor *selectColor = [UIColor colorWithRed:(255.0/255.0) green:(255.0/255.0) blue:(255.0/255.0) alpha:1];
     [[UINavigationBar appearance] setTintColor:myColor];
