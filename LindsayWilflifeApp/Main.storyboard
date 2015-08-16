@@ -2778,7 +2778,7 @@ W-S: 10AM - 5PM</string>
                                             <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="Every Tuesday the exhibit hall is open from 10AM-5PM for ">
+                                    <fragment content="Every Tuesday, the exhibit hall is open from 10AM-5PM for ">
                                         <attributes>
                                             <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="36">
