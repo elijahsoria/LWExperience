@@ -9,12 +9,16 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+<<<<<<< HEAD
 #import "Note.h"
 #import "DBAccess.h"
+=======
+>>>>>>> origin/master
 
 @interface LWMAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+<<<<<<< HEAD
 @property (strong, nonatomic) NSMutableArray *notesArray;
 
 
@@ -25,4 +29,9 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 @property DBAccess *dba;
+=======
+
+
+
+>>>>>>> origin/master
 @end

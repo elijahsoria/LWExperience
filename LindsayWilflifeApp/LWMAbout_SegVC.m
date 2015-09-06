@@ -29,6 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
     /*UIImage *btnImage1 = [UIImage imageNamed:@"look.png"];
     UIImage *btnImage2 = [UIImage imageNamed:@"bees.png"];
     UIImage *btnImage3 = [UIImage imageNamed:@"eyes.png"];
@@ -44,6 +45,16 @@
     //_aboutText = i.info;
     
     /*_aboutDescription.backgroundColor = [LWMStyle setDetailBackgroundColor:@"light"];
+=======
+	// Do any additional setup after loading the view.
+    
+    DBAccess *dba = [[DBAccess alloc] init];
+
+    About *i = dba.getAbout[0];
+    _aboutText = i.info;
+    
+    _aboutDescription.backgroundColor = [LWMStyle setDetailBackgroundColor:@"light"];
+>>>>>>> origin/master
     _aboutDescription.textAlignment = NSTextAlignmentNatural;
     _aboutDescription.layer.cornerRadius = 20.0;
     
@@ -54,12 +65,21 @@
     _aboutImage.image = [UIImage imageNamed:@"Lindsay Front.png"];
   
     _aboutDescriptionBackground.backgroundColor = [LWMStyle setDetailBackgroundColor:@"light"];
+<<<<<<< HEAD
     _aboutDescriptionBackground.layer.cornerRadius = 20.0;*/
     
     //self.view.backgroundColor = [LWMStyle setBackgroundColor:@"dark"];
     
     
     /*NSMutableDictionary *attributes = [[NSMutableDictionary alloc]init];
+=======
+    _aboutDescriptionBackground.layer.cornerRadius = 20.0;
+    
+    self.view.backgroundColor = [LWMStyle setBackgroundColor:@"dark"];
+    
+    
+    NSMutableDictionary *attributes = [[NSMutableDictionary alloc]init];
+>>>>>>> origin/master
 
     NSMutableParagraphStyle *hyphenation = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
     [hyphenation setHyphenationFactor:1.0];
@@ -71,6 +91,7 @@
     _aboutDescription.attributedText = [[NSAttributedString alloc] initWithString:_aboutText attributes:attributes];
      
     CGSize sizeThatShouldFitTheContent = [_aboutDescription sizeThatFits:_aboutDescription.frame.size];
+<<<<<<< HEAD
     _frontHeightConstraint.constant = sizeThatShouldFitTheContent.height;*/
     
 }
@@ -78,6 +99,15 @@
 /*- (void)viewDidLayoutSubviews {
     _scroll.contentSize=CGSizeMake(320,_aboutImage.frame.size.height + _frontHeightConstraint.constant + 30);
 }*/
+=======
+    _frontHeightConstraint.constant = sizeThatShouldFitTheContent.height;
+    
+}
+
+- (void)viewDidLayoutSubviews {
+    _scroll.contentSize=CGSizeMake(320,_aboutImage.frame.size.height + _frontHeightConstraint.constant + 30);
+}
+>>>>>>> origin/master
 
 
 - (void)didReceiveMemoryWarning
@@ -86,10 +116,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+<<<<<<< HEAD
 /*- (IBAction)directions:(id)sender {
+=======
+- (IBAction)directions:(id)sender {
+>>>>>>> origin/master
     
     NSString *examplecurrentloc = @"http://maps.apple.com/?daddr=1931+1st+Avenue+Walnut+Creek,+CA&saddr=Current+Location";
     NSURL *mapurl = [NSURL URLWithString:examplecurrentloc];
     [[UIApplication sharedApplication] openURL:mapurl];
+<<<<<<< HEAD
 }*/
+=======
+}
+>>>>>>> origin/master
 @end

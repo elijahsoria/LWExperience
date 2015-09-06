@@ -29,10 +29,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
     
    	// Do any additional setup after loading the view.
 
     /*DBAccess *dba = [[DBAccess alloc]init];
+=======
+	// Do any additional setup after loading the view.
+
+    DBAccess *dba = [[DBAccess alloc]init];
+>>>>>>> origin/master
     About *q = dba.getFaqs[0];
     
     _scroll.scrollEnabled=YES;
@@ -67,6 +73,7 @@
     _faqDescription.attributedText = q.faq;
     
     CGSize sizeThatShouldFitTheContent = [_faqDescription sizeThatFits:_faqDescription.frame.size];
+<<<<<<< HEAD
     _frontHeightConstraint.constant = sizeThatShouldFitTheContent.height;*/
      
     
@@ -75,6 +82,15 @@
 /*- (void)viewDidLayoutSubviews {
     _scroll.contentSize=CGSizeMake(320,_faqImage.frame.size.height + _frontHeightConstraint.constant + 30);
 }*/
+=======
+    _frontHeightConstraint.constant = sizeThatShouldFitTheContent.height;
+    
+}
+
+- (void)viewDidLayoutSubviews {
+    _scroll.contentSize=CGSizeMake(320,_faqImage.frame.size.height + _frontHeightConstraint.constant + 30);
+}
+>>>>>>> origin/master
 
 
 - (void)didReceiveMemoryWarning
@@ -83,7 +99,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+<<<<<<< HEAD
 /*- (IBAction)call:(id)sender {
+=======
+- (IBAction)call:(id)sender {
+>>>>>>> origin/master
     UIAlertView *myAlertView = [[UIAlertView alloc] initWithTitle:nil message:@"This will call Lindsay Wildlife" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles:@"Cancel", nil];
     [myAlertView show];
 }
@@ -95,6 +115,7 @@
     
     
     
+<<<<<<< HEAD
 }*/
 - (IBAction)push1:(id)sender {
 }
@@ -112,5 +133,7 @@
 }
 
 - (IBAction)push6:(id)sender {
+=======
+>>>>>>> origin/master
 }
 @end

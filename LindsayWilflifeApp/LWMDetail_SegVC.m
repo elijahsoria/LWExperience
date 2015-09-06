@@ -80,9 +80,15 @@
     
     //Text colors
 
+<<<<<<< HEAD
     //_date.textColor = [LWMStyle setTextColor:@"light"];
 
     //_location.textColor = [LWMStyle setTextColor:@"light"];
+=======
+    _date.TextColor = [LWMStyle setTextColor:@"light"];
+
+    _location.textColor = [LWMStyle setTextColor:@"light"];
+>>>>>>> origin/master
 
     _tagsTitle.textColor = [LWMStyle setTextColor:@"light"];
 

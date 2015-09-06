@@ -36,6 +36,7 @@
     self.title = _wildlifeTitle;
     self.view.backgroundColor = [LWMStyle setBackgroundColor:@"dark"];
     
+<<<<<<< HEAD
     self.wildlifeTable.backgroundView = nil;
     
     self.wildlifeTable.backgroundColor = [LWMStyle setBackgroundColor:@"dark"];
@@ -79,6 +80,16 @@
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
     //NSLog(@"Search Clicked");
     [self filterContentForSearchText:self.searchBar.text];
+=======
+    _wildlifeTable.backgroundView = nil;
+    
+    self.wildlifeTable.backgroundColor = [LWMStyle setBackgroundColor:@"dark"];
+    
+    _wildlifeTable.separatorColor = [UIColor clearColor];
+    self.searchDisplayController.searchResultsTableView.separatorColor = [UIColor clearColor];
+    
+    
+>>>>>>> origin/master
 }
 
 - (void)didReceiveMemoryWarning
@@ -104,7 +115,11 @@
 
 -(NSInteger) numberOfSectionsInTableView:(UITableView *)tableView
 {
+<<<<<<< HEAD
     if (self.isSearching) {
+=======
+    if (tableView == self.searchDisplayController.searchResultsTableView) {
+>>>>>>> origin/master
         return 1;
     }
     else{
@@ -120,7 +135,11 @@
     NSArray *myarray = [object objectForKey:@"subgroupobjects"];
     
     
+<<<<<<< HEAD
     if (self.isSearching) {
+=======
+    if (tableView == self.searchDisplayController.searchResultsTableView) {
+>>>>>>> origin/master
         if(_searchResults.count < 7){
             return 7;
         }
@@ -149,7 +168,11 @@
     static NSString *simpleTableIdentifier = @"Cell";
     static NSString *nonsimpleTableIdentifier = @"NonCell";
     
+<<<<<<< HEAD
     if (self.isSearching)
+=======
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+>>>>>>> origin/master
     {
         BOOL isClickable = (indexPath.row <_searchResults.count);
         
@@ -336,7 +359,11 @@
         
         LWMWildlifeDetailViewController *detail = segue.destinationViewController;
         
+<<<<<<< HEAD
         /*if (self.isSearching) {
+=======
+        if (self.searchDisplayController.isActive) {
+>>>>>>> origin/master
             NSIndexPath *indexpath = [self.searchDisplayController.searchResultsTableView indexPathForSelectedRow];
             for (NSMutableDictionary *group in _wildlifeArray)
             {
@@ -420,8 +447,13 @@
                      }
                 }
             }
+<<<<<<< HEAD
         }*/
         //else{
+=======
+        }
+        else{
+>>>>>>> origin/master
             NSIndexPath *idexPath = [_wildlifeTable indexPathForSelectedRow];
             Animal_Full *animal = [[[_wildlifeArray objectAtIndex:idexPath.section] objectForKey:@"subgroupobjects"] objectAtIndex:idexPath.row];
             
@@ -500,9 +532,18 @@
             detail.detailDescription = sci_name;
             detail.detailPicture = animal.largeImagePath;
             detail.detailHelp = animal.animalSos;
+<<<<<<< HEAD
         //}
 
         
+=======
+        }
+
+        
+        
+        
+        
+>>>>>>> origin/master
     }
 }
 
@@ -528,7 +569,11 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+<<<<<<< HEAD
     if (self.isSearching) {
+=======
+    if (tableView == self.searchDisplayController.searchResultsTableView) {
+>>>>>>> origin/master
         return 0;
     }
     else{
@@ -543,7 +588,11 @@
     
 }
 
+<<<<<<< HEAD
 - (void)filterContentForSearchText:(NSString*)searchText
+=======
+- (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
+>>>>>>> origin/master
 {
     NSPredicate *resultPredicate = [NSPredicate
                                     predicateWithFormat:@"SELF contains[cd] %@",
@@ -557,12 +606,20 @@
         
     }
     
+<<<<<<< HEAD
     _searchResults = [NSMutableArray arrayWithArray:[wildlifeArrayNames filteredArrayUsingPredicate:resultPredicate]];
 
 }
 
 
 /*-(BOOL)searchDisplayController:(UISearchDisplayController *)controller
+=======
+    _searchResults = [wildlifeArrayNames filteredArrayUsingPredicate:resultPredicate];
+
+}
+
+-(BOOL)searchDisplayController:(UISearchDisplayController *)controller
+>>>>>>> origin/master
 shouldReloadTableForSearchString:(NSString *)searchString
 {
     [self filterContentForSearchText:searchString
@@ -570,6 +627,10 @@ shouldReloadTableForSearchString:(NSString *)searchString
                                       objectAtIndex:[self.searchDisplayController.searchBar
                                                      selectedScopeButtonIndex]]];
     return YES;
+<<<<<<< HEAD
 }*/
+=======
+}
+>>>>>>> origin/master
 
 @end

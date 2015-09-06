@@ -41,6 +41,7 @@
     
     
     
+<<<<<<< HEAD
     //if(IsIphone5)
     //{
         _tutorialArray = [[NSArray alloc] initWithObjects:@"6t1.png", @"6t2.png", @"6t3.png", @"6t4.png", @"6t5.png", @"6t6.png", @"6t7.png", @"6t8.png", @"6t10.png", @"6t9.png", @"6t11.png", @"6t12.png", @"6t13.png", @"6t14.png", @"6t15.png", nil];
@@ -49,6 +50,16 @@
     //{
     //    _tutorialArray = [[NSArray alloc] initWithObjects:@"4t1.png", @"4t2.png", @"4t3.png", @"4t4.png", @"4t5.png", @"4t6.png", @"4t7.png", @"4t8.png", @"4t10.png", @"4t9.png", @"4t11.png", @"4t12.png", @"4t13.png", @"4t14.png", @"4t15.png", nil];
     //}
+=======
+    if(IsIphone5)
+    {
+        _tutorialArray = [[NSArray alloc] initWithObjects:@"5t1.png", @"5t2.png", @"5t3.png", @"5t4.png", @"5t5.png", @"5t6.png", @"5t7.png", @"5t8.png", @"5t10.png", @"5t9.png", @"5t11.png", @"5t12.png", @"5t13.png", @"5t14.png", @"5t15.png", nil];
+    }
+    else
+    {
+        _tutorialArray = [[NSArray alloc] initWithObjects:@"4t1.png", @"4t2.png", @"4t3.png", @"4t4.png", @"4t5.png", @"4t6.png", @"4t7.png", @"4t8.png", @"4t10.png", @"4t9.png", @"4t11.png", @"4t12.png", @"4t13.png", @"4t14.png", @"4t15.png", nil];
+    }
+>>>>>>> origin/master
     
     for (int i = 0; i <[_tutorialArray count]; i++) {
         //We'll create an imageView object in every 'page' of our scrollView.

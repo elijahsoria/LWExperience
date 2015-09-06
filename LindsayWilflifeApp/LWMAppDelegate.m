@@ -11,6 +11,7 @@
 #import <FacebookSDK/FacebookSDK.h>
 #import "Note.h"
 
+<<<<<<< HEAD
 
 @implementation LWMAppDelegate
 
@@ -19,11 +20,19 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 
+=======
+@implementation LWMAppDelegate
+
+>>>>>>> origin/master
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
+<<<<<<< HEAD
     //[self initializeStoryBoardBasedOnScreenSize];
+=======
+    [self initializeStoryBoardBasedOnScreenSize];
+>>>>>>> origin/master
     
     
     // Override point for customization after application launch.
@@ -31,10 +40,16 @@
     
     
     //UIColor *myColor = [UIColor colorWithRed:(224.0/255.0) green:(224.0/255.0) blue:(224.0/255.0) alpha:1];
+<<<<<<< HEAD
     
     UIColor *myColor = [UIColor colorWithRed:(251.0/255.0) green:(255.0/255.0) blue:(210.0/255.0) alpha:1];
     [[UINavigationBar appearance] setTintColor:myColor];
     //UIColor *selectColor = [UIColor colorWithRed:(255.0/255.0) green:(255.0/255.0) blue:(255.0/255.0) alpha:1];
+=======
+    UIColor *myColor = [UIColor colorWithRed:(251.0/255.0) green:(255.0/255.0) blue:(210.0/255.0) alpha:1];
+    [[UINavigationBar appearance] setTintColor:myColor];
+    UIColor *selectColor = [UIColor colorWithRed:(255.0/255.0) green:(255.0/255.0) blue:(255.0/255.0) alpha:1];
+>>>>>>> origin/master
     [[UINavigationBar appearance] setTintColor:myColor];
     UIColor *textColor = [UIColor colorWithRed:(251.0/255.0) green:(255.0/255.0) blue:(210.0/255.0) alpha:1];
     [[UINavigationBar appearance] setTitleTextAttributes:
@@ -53,7 +68,11 @@
     [[UIApplication sharedApplication] setStatusBarHidden:NO];
     
     [[UITabBar appearance] setTintColor:myColor];
+<<<<<<< HEAD
     //[[UITabBar appearance] setTintColor:selectColor];
+=======
+    [[UITabBar appearance] setSelectedImageTintColor:selectColor];
+>>>>>>> origin/master
     
     [[UIToolbar appearance] setTintColor:[UIColor blackColor]];
     [[UIToolbar appearance] setBarStyle:UIBarStyleDefault];
@@ -85,6 +104,7 @@
     tabBarItem5.selectedImage = [[UIImage imageNamed:@"lwm logo dark2.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 
     
+<<<<<<< HEAD
     _dba = [[DBAccess alloc]init];
    
    /*_model = [NSManagedObjectModel mergedModelFromBundles:[NSBundle allBundles]];
@@ -277,6 +297,12 @@
 }
 
 /*-(void)initializeStoryBoardBasedOnScreenSize {
+=======
+    return YES;
+}
+
+-(void)initializeStoryBoardBasedOnScreenSize {
+>>>>>>> origin/master
     
     if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone)
     {    // The iOS device = iPhone or iPod Touch
@@ -331,7 +357,11 @@
         splitViewController.delegate = (id)navigationController.topViewController;
         
     }
+<<<<<<< HEAD
 }*/
+=======
+}
+>>>>>>> origin/master
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -341,6 +371,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
+<<<<<<< HEAD
    [self clearEntity:@"NoteClass"];
    [self db_pull];
    
@@ -364,6 +395,10 @@
       [fieldNote setValue:note.thum_path forKey:@"thum_path"];
       [self saveContext];
    }
+=======
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+>>>>>>> origin/master
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -378,6 +413,7 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
+<<<<<<< HEAD
     [self clearEntity:@"NoteClass"];
     [self db_pull];
     
@@ -433,6 +469,9 @@
     }
 
     return (saveError == nil);
+=======
+    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+>>>>>>> origin/master
 }
 
 

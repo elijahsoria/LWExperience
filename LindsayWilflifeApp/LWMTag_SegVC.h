@@ -23,9 +23,13 @@
 
 @property NSArray *tagsArray;
 @property NSArray *subtagsArray;
+<<<<<<< HEAD
 @property NSMutableArray *searchResults;
 @property (strong, nonatomic) UISearchController *searchController;
 @property BOOL isSearching;
+=======
+@property NSArray *searchResults;
+>>>>>>> origin/master
 
 -(void)refresh;
 @end

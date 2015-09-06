@@ -30,17 +30,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
     
         
     _tagTable.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.view.backgroundColor = [LWMStyle setBackgroundColor:@"dark"];
     self.searchResults = [[NSMutableArray alloc] init];
     self.isSearching = NO;
+=======
+        
+    _tagTable.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.searchDisplayController.searchResultsTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.view.backgroundColor = [LWMStyle setBackgroundColor:@"dark"];
+
+>>>>>>> origin/master
    
 	// Do any additional setup after loading the view.
     
 }
 
+<<<<<<< HEAD
 // Search Bar
 
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
@@ -73,6 +82,8 @@
     [self filterContentForSearchText:self.searchBar.text];
 }
 
+=======
+>>>>>>> origin/master
 - (void) hideKeyboard {
     [_searchBar resignFirstResponder];
 }
@@ -108,7 +119,11 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 
+<<<<<<< HEAD
     if (self.isSearching) {
+=======
+    if (tableView == self.searchDisplayController.searchResultsTableView) {
+>>>>>>> origin/master
         if (_searchResults.count < 11) {
             return 11;
         }
@@ -149,7 +164,11 @@
     }
     
     
+<<<<<<< HEAD
     if (self.isSearching) {
+=======
+    if (tableView == self.searchDisplayController.searchResultsTableView) {
+>>>>>>> origin/master
         if (_searchResults.count < 11 && indexPath.row >= _searchResults.count) {
             cell.textLabel.text = @"";
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -223,32 +242,56 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"show_animals"]) {
+<<<<<<< HEAD
         /*if (self.searchDisplayController.isActive) {
+=======
+        if (self.searchDisplayController.isActive) {
+>>>>>>> origin/master
             NSIndexPath *indexpath = [self.searchDisplayController.searchResultsTableView indexPathForSelectedRow];
             LWMTagDetail_SegVC *detail = segue.destinationViewController;
             
             detail.tag=[_searchResults objectAtIndex:indexpath.row];
+<<<<<<< HEAD
         }*/
         //else{
+=======
+        }
+        else{
+>>>>>>> origin/master
             NSIndexPath *indexpath = [_tagTable indexPathForSelectedRow];
             LWMTagDetail_SegVC *detail = segue.destinationViewController;
             
             detail.tag=[_tagsArray objectAtIndex:indexpath.row];
+<<<<<<< HEAD
         //}
+=======
+        }
+>>>>>>> origin/master
     
     }
 }
 
+<<<<<<< HEAD
 - (void)filterContentForSearchText:(NSString*)searchText
+=======
+- (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
+>>>>>>> origin/master
 {
     NSPredicate *resultPredicate = [NSPredicate
                                     predicateWithFormat:@"SELF contains[cd] %@",
                                     searchText];
     
+<<<<<<< HEAD
     _searchResults = [NSMutableArray arrayWithArray:[_tagsArray filteredArrayUsingPredicate:resultPredicate]];
 }
 
 /*-(BOOL)searchDisplayController:(UISearchDisplayController *)controller
+=======
+    _searchResults = [_tagsArray filteredArrayUsingPredicate:resultPredicate];
+}
+
+-(BOOL)searchDisplayController:(UISearchDisplayController *)controller
+>>>>>>> origin/master
 shouldReloadTableForSearchString:(NSString *)searchString
 {
     [self filterContentForSearchText:searchString
@@ -257,6 +300,13 @@ shouldReloadTableForSearchString:(NSString *)searchString
                                                      selectedScopeButtonIndex]]];
     
     return YES;
+<<<<<<< HEAD
 }*/
+=======
+}
+
+
+
+>>>>>>> origin/master
 
 @end

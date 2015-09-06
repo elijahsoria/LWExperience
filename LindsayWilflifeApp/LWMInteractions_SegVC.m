@@ -32,7 +32,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+<<<<<<< HEAD
     /*DBAccess *dba = [[DBAccess alloc]init];
+=======
+    DBAccess *dba = [[DBAccess alloc]init];
+>>>>>>> origin/master
     _programsArray = dba.getPrograms;
     _interactionsDetailArray = [[NSMutableArray alloc] init];
     for (Programs *p in _programsArray)
@@ -51,7 +55,11 @@
     
     self.interactionsTable.backgroundColor = [LWMStyle setBackgroundColor:@"dark"];
     
+<<<<<<< HEAD
     _interactionsTable.separatorColor = [UIColor clearColor];*/
+=======
+    _interactionsTable.separatorColor = [UIColor clearColor];
+>>>>>>> origin/master
     
     self.title = @"Interactions";
     
@@ -63,6 +71,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+<<<<<<< HEAD
 /*-(CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 80;
@@ -70,6 +79,15 @@
 
 
 /*-(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+=======
+-(CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 80;
+}
+
+
+-(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+>>>>>>> origin/master
 {
     if(_interactionsDetailArray.count < 7)
     {
@@ -171,7 +189,11 @@
     }
     
     
+<<<<<<< HEAD
 }*/
+=======
+}
+>>>>>>> origin/master
 
 
 

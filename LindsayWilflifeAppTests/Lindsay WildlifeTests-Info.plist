@@ -2,10 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+<<<<<<< HEAD
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>LWExperience would like to use your location to tag your field notes.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>LWExperience would like to use your location to tag your field notes.</string>
+=======
+>>>>>>> origin/master
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

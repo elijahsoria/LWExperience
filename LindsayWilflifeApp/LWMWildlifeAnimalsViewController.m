@@ -44,10 +44,17 @@
     _labelThree.text = @"AMPHIBIANS";
     _labelFour.text = @"REPTILES";
     
+<<<<<<< HEAD
     //_labelOne.textColor = [LWMStyle setTextColor:@"light"];
     //_labelTwo.textColor = [LWMStyle setTextColor:@"light"];
     //_labelThree.textColor = [LWMStyle setTextColor:@"light"];
     //_labelFour.textColor = [LWMStyle setTextColor:@"light"];
+=======
+    _labelOne.textColor = [LWMStyle setTextColor:@"light"];
+    _labelTwo.textColor = [LWMStyle setTextColor:@"light"];
+    _labelThree.textColor = [LWMStyle setTextColor:@"light"];
+    _labelFour.textColor = [LWMStyle setTextColor:@"light"];
+>>>>>>> origin/master
     
     _birdArray=[[NSMutableArray alloc] init];
     NSMutableArray *tempbirdArray=[[NSMutableArray alloc] init];

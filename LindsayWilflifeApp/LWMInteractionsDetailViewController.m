@@ -34,7 +34,11 @@
 	// Do any additional setup after loading the view.
     
         
+<<<<<<< HEAD
     /*_name.text = _detailName;
+=======
+    _name.text = _detailName;
+>>>>>>> origin/master
     _picture.image = [UIImage imageNamed:_detailPicture];
     
     
@@ -81,6 +85,7 @@
     ////
     
     //_frontHeightConstraint.constant = sizeThatShouldFitTheContent.height;
+<<<<<<< HEAD
      */
     
 }
@@ -90,6 +95,16 @@
     totalHeight = _frontHeightConstraint.constant + _picture.frame.size.height + 40.0f;
     [_scroll setContentSize:(CGSizeMake(320, totalHeight))];
 }*/
+=======
+    
+}
+
+- (void) viewDidLayoutSubviews{
+    CGFloat totalHeight = 0.0f;
+    totalHeight = _frontHeightConstraint.constant + _picture.frame.size.height + 40.0f;
+    [_scroll setContentSize:(CGSizeMake(320, totalHeight))];
+}
+>>>>>>> origin/master
 
 - (void)didReceiveMemoryWarning
 {
@@ -97,7 +112,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+<<<<<<< HEAD
 /*- (IBAction)url:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:_urlName]];
 }*/
+=======
+- (IBAction)url:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:_urlName]];
+}
+>>>>>>> origin/master
 @end

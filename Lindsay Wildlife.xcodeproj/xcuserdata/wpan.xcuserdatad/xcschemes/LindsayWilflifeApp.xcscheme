@@ -15,7 +15,11 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0005658F1804FEF100D16BB8"
+<<<<<<< HEAD
                BuildableName = "LWExperience.app"
+=======
+               BuildableName = "LWM Encounters.app"
+>>>>>>> origin/master
                BlueprintName = "Lindsay Wildlife"
                ReferencedContainer = "container:Lindsay Wildlife.xcodeproj">
             </BuildableReference>
@@ -43,7 +47,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0005658F1804FEF100D16BB8"
+<<<<<<< HEAD
             BuildableName = "LWExperience.app"
+=======
+            BuildableName = "LWM Encounters.app"
+>>>>>>> origin/master
             BlueprintName = "Lindsay Wildlife"
             ReferencedContainer = "container:Lindsay Wildlife.xcodeproj">
          </BuildableReference>
@@ -58,12 +66,20 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+<<<<<<< HEAD
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0005658F1804FEF100D16BB8"
             BuildableName = "LWExperience.app"
+=======
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0005658F1804FEF100D16BB8"
+            BuildableName = "LWM Encounters.app"
+>>>>>>> origin/master
             BlueprintName = "Lindsay Wildlife"
             ReferencedContainer = "container:Lindsay Wildlife.xcodeproj">
          </BuildableReference>
@@ -77,12 +93,20 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+<<<<<<< HEAD
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0005658F1804FEF100D16BB8"
             BuildableName = "LWExperience.app"
+=======
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0005658F1804FEF100D16BB8"
+            BuildableName = "LWM Encounters.app"
+>>>>>>> origin/master
             BlueprintName = "Lindsay Wildlife"
             ReferencedContainer = "container:Lindsay Wildlife.xcodeproj">
          </BuildableReference>

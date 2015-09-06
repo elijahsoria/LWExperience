@@ -15,8 +15,13 @@
 #import "DBAccess.h"
 #import "Reachability.h"
 
+<<<<<<< HEAD
 @interface LWMMap_SegVC : UIViewController <UIApplicationDelegate, CLLocationManagerDelegate,MKMapViewDelegate,UITextFieldDelegate>
 @property (strong, nonatomic) CLLocationManager *locationManager;
+=======
+@interface LWMMap_SegVC : UIViewController <UIApplicationDelegate,CLLocationManagerDelegate,MKMapViewDelegate,UITextFieldDelegate>
+@property CLLocationManager *locationManager;
+>>>>>>> origin/master
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property NSArray *geo_locations;
 @property NSMutableArray *annotations;

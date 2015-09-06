@@ -31,10 +31,17 @@
     //Defining images
     UIImage *div_left = [[UIImage imageNamed:@"seg_sep_right_select.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 13)];
     UIImage *div_right = [[UIImage imageNamed:@"seg_sep_left_select.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 13)];
+<<<<<<< HEAD
     UIImage *div_both = [[UIImage imageNamed:@"seg_sep_both_select.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 13)];
     UIImage *normalBackgroundImage = [[UIImage imageNamed:@"seg_mid.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 13)];
     UIImage *selectedBackgroundImage = [[UIImage imageNamed:@"seg_mid_select.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 13)];
     UIImage *div_none = [[UIImage imageNamed:@"seg_sep_none_select.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 13)];
+=======
+    UIImage *div_both = [[UIImage imageNamed:@"seg_sep_none_select.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 13)];
+    UIImage *normalBackgroundImage = [[UIImage imageNamed:@"seg_mid.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 13)];
+    UIImage *selectedBackgroundImage = [[UIImage imageNamed:@"seg_mid_select.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 13)];
+    UIImage *div_none = [[UIImage imageNamed:@"seg_sep_both_select.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 13)];
+>>>>>>> origin/master
     
     //Setting divider images
     [self setDividerImage:div_both forLeftSegmentState:UIControlStateSelected rightSegmentState:UIControlStateSelected barMetrics:UIBarMetricsDefault];

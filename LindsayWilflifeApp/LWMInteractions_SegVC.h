@@ -13,11 +13,19 @@
 #import "Programs.h"
 
 
+<<<<<<< HEAD
 @interface LWMInteractions_SegVC : UIViewController
 
 //@property (weak, nonatomic) IBOutlet LWMSpecialTableView *interactionsTable;
 //@property NSMutableArray *interactionsDetailArray;
 //@property NSArray *programsArray;
+=======
+@interface LWMInteractions_SegVC : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet LWMSpecialTableView *interactionsTable;
+@property NSMutableArray *interactionsDetailArray;
+@property NSArray *programsArray;
+>>>>>>> origin/master
 
 
 @end

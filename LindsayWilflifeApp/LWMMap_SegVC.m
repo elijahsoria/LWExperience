@@ -29,7 +29,10 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
     _isConnectionAvailable=0;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
     self.internetReachability = [Reachability reachabilityForInternetConnection];
@@ -42,14 +45,20 @@
     self.wifiReachability = [Reachability reachabilityForLocalWiFi];
 	[self.wifiReachability startNotifier];
     [self configure:self.internetReachability];
+<<<<<<< HEAD
     CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
     if ([self isConnectionAvailable] && ((status==kCLAuthorizationStatusAuthorizedAlways) || (status==kCLAuthorizationStatusAuthorizedWhenInUse))) {
+=======
+    
+    if ([self isConnectionAvailable]) {
+>>>>>>> origin/master
         [self removeAllPinsButUserLocation];
         [self db_pull];
     }
 
 }
 
+<<<<<<< HEAD
 -(void) locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status{
     if (status == kCLAuthorizationStatusAuthorizedAlways || status == kCLAuthorizationStatusAuthorizedWhenInUse){
             id userLocation = [_mapView userLocation];
@@ -64,6 +73,8 @@
     [_locationManager startUpdatingLocation];
 }
 
+=======
+>>>>>>> origin/master
 -(void) refresh{
     
     if ([self isConnectionAvailable]) {
@@ -164,6 +175,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
     _locationManager = [[CLLocationManager alloc] init];
     _locationManager.delegate = self;
     if ([_locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
@@ -176,6 +188,12 @@
         //_locationManager = [[CLLocationManager alloc] init];
         //[_locationManager requestAlwaysAuthorization];
         //[_locationManager setDelegate:self];
+=======
+    _mapView.delegate = self;
+    if ([self isConnectionAvailable]) {
+        _locationManager = [[CLLocationManager alloc] init];
+        [_locationManager setDelegate:self];
+>>>>>>> origin/master
         
         [_locationManager setDistanceFilter:kCLDistanceFilterNone];
         [_locationManager setDesiredAccuracy:kCLLocationAccuracyBest];

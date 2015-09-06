@@ -12,6 +12,7 @@
 #import "DBAccess.h"
 
 @interface LWMFaq_SegVC : UIViewController
+<<<<<<< HEAD
 /*@property (strong, nonatomic) IBOutlet UIButton *Button1;
 @property (strong, nonatomic) IBOutlet UIButton *Button2;
 @property (strong, nonatomic) IBOutlet UIButton *Button3;
@@ -26,6 +27,10 @@
 - (IBAction)push6:(id)sender;*/
 
 /*@property (weak, nonatomic) IBOutlet UITextView *faqDescription;
+=======
+
+@property (weak, nonatomic) IBOutlet UITextView *faqDescription;
+>>>>>>> origin/master
 @property (weak, nonatomic) IBOutlet UIImageView *faqImage;
 @property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 @property (weak, nonatomic) IBOutlet UITextView *faqDescriptionBackground;
@@ -34,6 +39,10 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *frontHeightConstraint;
 @property (weak, nonatomic) IBOutlet UIButton *faqButton;
 
+<<<<<<< HEAD
 - (IBAction)call:(id)sender;*/
+=======
+- (IBAction)call:(id)sender;
+>>>>>>> origin/master
 
 @end

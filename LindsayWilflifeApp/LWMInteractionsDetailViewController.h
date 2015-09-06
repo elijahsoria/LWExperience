@@ -13,7 +13,11 @@
 
 @interface LWMInteractionsDetailViewController : UIViewController
 
+<<<<<<< HEAD
 /*@property (weak, nonatomic) IBOutlet UITextView *name;
+=======
+@property (weak, nonatomic) IBOutlet UITextView *name;
+>>>>>>> origin/master
 @property (weak, nonatomic) IBOutlet UITextView *descript;
 @property (weak, nonatomic) IBOutlet UIButton *websiteLink;
 @property (weak, nonatomic) IBOutlet UIImageView *picture;
@@ -28,5 +32,9 @@
 @property NSString *urlName;
 
 
+<<<<<<< HEAD
 @property (strong, nonatomic) IBOutlet UIScrollView *scroll;*/
+=======
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
+>>>>>>> origin/master
 @end

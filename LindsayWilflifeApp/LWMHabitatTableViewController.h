@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "LWMSpecialTableView.h"
 
+<<<<<<< HEAD
 @interface LWMHabitatTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UISearchControllerDelegate, UISearchBarDelegate>
 
 @property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
@@ -19,4 +20,14 @@
 @property NSMutableArray *searchResults;
 @property (strong, nonatomic) UISearchController *searchController;
 @property BOOL isSearching;
+=======
+@interface LWMHabitatTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (weak, nonatomic) IBOutlet LWMSpecialTableView *habitatTable;
+@property NSArray *habitatArray;
+@property NSString *habitatTitle;
+@property NSArray *searchResults;
+
+>>>>>>> origin/master
 @end

@@ -16,6 +16,7 @@
 
 @interface LWMAbout_SegVC : UIViewController
 
+<<<<<<< HEAD
 //@property (weak, nonatomic) IBOutlet UITextView *aboutDescription;
 //@property (weak, nonatomic) IBOutlet UIImageView *aboutImage;
 //@property (weak, nonatomic) IBOutlet UITextView *aboutTitle;
@@ -36,5 +37,21 @@
 //@property (weak, nonatomic) IBOutlet UIButton *aboutButton;
 
 //- (IBAction)directions:(id)sender;
+=======
+@property (weak, nonatomic) IBOutlet UITextView *aboutDescription;
+@property (weak, nonatomic) IBOutlet UIImageView *aboutImage;
+@property (weak, nonatomic) IBOutlet UITextView *aboutTitle;
+@property (weak, nonatomic) IBOutlet UITextView *aboutDescriptionBackground;
+
+@property NSString *aboutText;
+
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
+
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *frontHeightConstraint;
+
+@property (weak, nonatomic) IBOutlet UIButton *aboutButton;
+
+- (IBAction)directions:(id)sender;
+>>>>>>> origin/master
 @end
 
