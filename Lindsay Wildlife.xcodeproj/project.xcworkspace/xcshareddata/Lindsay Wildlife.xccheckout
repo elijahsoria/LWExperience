@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
+	<string>C056300F-E64F-4825-86E5-D384C5F03CFE</string>
+=======
+	<string>051DBC03-972E-42D2-A475-079E650A668C</string>
+>>>>>>> fda83461dc8fa5ea0a1c30f32f1ed1bf96211802
+	<key>IDESourceControlProjectName</key>
+	<string>Lindsay Wildlife</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>24891F4CCE0B611F0D8267F5D8754A675111C5EE</key>
+		<string>https://github.com/elijahsoria/LWExperience.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Lindsay Wildlife.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>24891F4CCE0B611F0D8267F5D8754A675111C5EE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/elijahsoria/LWExperience.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>24891F4CCE0B611F0D8267F5D8754A675111C5EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>24891F4CCE0B611F0D8267F5D8754A675111C5EE</string>
+			<key>IDESourceControlWCCName</key>
+<<<<<<< HEAD
+			<string>LWExperience</string>
+=======
+			<string>LMEFINAL</string>
+>>>>>>> fda83461dc8fa5ea0a1c30f32f1ed1bf96211802
+		</dict>
+	</array>
+</dict>
+</plist>
